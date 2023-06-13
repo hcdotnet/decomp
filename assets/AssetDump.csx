@@ -16,10 +16,12 @@ Directory.CreateDirectory(dialog.SelectedPath);
 
 void DoDumpOperation<T>(string folderName, Func<IList<T>?> assetList, Action<T, Action<string, byte[]>> dumpAction) {
     var path = Path.Combine(dialog.SelectedPath, folderName);
+    if (Directory.Exists(path))
+        Directory.Delete(path, true);
     Directory.CreateDirectory(path);
     
     var list = assetList();
-    if (list is not null) {
+    if (list is not null && list.Count != 0) {
         foreach (var item in list) {
             dumpAction(item, (name, data) => {
                 var savePath = Path.Combine(path, name);
@@ -45,7 +47,7 @@ DoDumpOperation("shaders", () => Data.Shaders, (shader, c) => {
     foreach (var attribute in shader.VertexShaderAttributes)
         sb.AppendLine("  " + attribute.Name.Content);
 
-    c(shader.Name.Content + ".txt", Encoding.UTF8.GetBytes(sb.ToString()));
+    c(Path.Combine(shader.Name.Content, "shdader_info.txt"), Encoding.UTF8.GetBytes(sb.ToString()));
     c(Path.Combine(shader.Name.Content, "glsl_es_vertex.glsl"), Encoding.UTF8.GetBytes(shader.GLSL_ES_Vertex.Content));
     c(Path.Combine(shader.Name.Content, "glsl_es_fragment.glsl"), Encoding.UTF8.GetBytes(shader.GLSL_ES_Fragment.Content));
     c(Path.Combine(shader.Name.Content, "glsl_vertex.glsl"), Encoding.UTF8.GetBytes(shader.GLSL_Vertex.Content));
