@@ -65,7 +65,7 @@ public class SoundInfo {
     }
 }
 
-[Dumper("sound")]
+[Dumper("sounds")]
 public sealed class SoundDumper : AbstractListDumper<UndertaleSound> {
     protected override void DumpListItem(UndertaleData data, UndertaleSound item, FileWriter w) {
         var path = w.GetPath(item.AudioGroup.Name.Content, item.Name.Content);
