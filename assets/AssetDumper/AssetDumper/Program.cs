@@ -74,6 +74,12 @@ internal static class Program {
 
     private static void DumpData(UndertaleData data, string dataName, string outputDir, Dictionary<string, IAssetDumper> assetDumpers) {
         var directory = Path.Combine(outputDir, dataName);
+
+        if (Directory.Exists(directory)) {
+            Console.WriteLine("Deleting existing directory: " + directory);
+            Directory.Delete(directory, true);
+        }
+
         Directory.CreateDirectory(directory);
         Console.WriteLine("Dumping data file to directory: " + directory);
 
