@@ -32,4 +32,6 @@ public sealed class FileWriter {
     public void WritePlaceholder() {
         File.Create(Path.Combine(BaseDirectory, "_._")).Dispose();
     }
+
+    public string GetPath(params string[] path) => Path.Combine(BaseDirectory, Path.Combine(path));
 }
