@@ -1,6 +1,0 @@
-type: GLSL_ES
-version: 2
-vertex shader attributes:
-  in_Position
-  in_Colour
-  in_TextureCoord
