@@ -38,7 +38,7 @@ internal static class Program {
         Console.WriteLine("Using game directory: " + gameDir);
         Console.WriteLine("Using output directory: " + outputDir);
 
-        var assetDumpers = new IAssetDumper[] { new ShaderDumper(), new EmbeddedAudioDumper() };
+        var assetDumpers = new IAssetDumper[] { new ShaderDumper(), new StringDumper(), new EmbeddedAudioDumper() };
 
         var (audioGroup1, audioGroup1Name) = GetDataFile("audiogroup1.dat", gameDir);
         DumpData(audioGroup1, audioGroup1Name, outputDir, assetDumpers);
