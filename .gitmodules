@@ -1,0 +1,3 @@
+[submodule "assets/AssetDumper/UndertaleModTool"]
+	path = assets/AssetDumper/UndertaleModTool
+	url = https://github.com/krzys-h/UndertaleModTool.git
