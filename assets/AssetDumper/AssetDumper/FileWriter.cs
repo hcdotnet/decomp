@@ -7,19 +7,26 @@ public sealed class FileWriter {
 
     public FileWriter(string baseDirectory) {
         BaseDirectory = baseDirectory;
+        Directory.CreateDirectory(BaseDirectory);
     }
 
     public void Create(byte[] data, params string[] path) {
-        File.WriteAllBytes(Path.Combine(BaseDirectory, Path.Combine(path)), data);
+        var fullPath = Path.Combine(BaseDirectory, Path.Combine(path));
+        Directory.CreateDirectory(Path.GetDirectoryName(fullPath)!);
+        File.WriteAllBytes(fullPath, data);
     }
 
     public void Create(Stream data, params string[] path) {
-        using var file = File.OpenWrite(Path.Combine(BaseDirectory, Path.Combine(path)));
+        var fullPath = Path.Combine(BaseDirectory, Path.Combine(path));
+        Directory.CreateDirectory(Path.GetDirectoryName(fullPath)!);
+        using var file = File.OpenWrite(fullPath);
         data.CopyTo(file);
     }
 
     public void Create(string data, params string[] path) {
-        File.WriteAllText(Path.Combine(BaseDirectory, Path.Combine(path)), data);
+        var fullPath = Path.Combine(BaseDirectory, Path.Combine(path));
+        Directory.CreateDirectory(Path.GetDirectoryName(fullPath)!);
+        File.WriteAllText(fullPath, data);
     }
 
     public void WritePlaceholder() {

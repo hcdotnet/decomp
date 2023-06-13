@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using AssetDumper.Dumpers;
 using UndertaleModLib;
 
 namespace AssetDumper;
@@ -37,7 +38,7 @@ internal static class Program {
         Console.WriteLine("Using game directory: " + gameDir);
         Console.WriteLine("Using output directory: " + outputDir);
 
-        var assetDumpers = new IAssetDumper[] { };
+        var assetDumpers = new IAssetDumper[] { new EmbeddedAudioDumper() };
 
         var (audioGroup1, audioGroup1Name) = GetDataFile("audiogroup1.dat", gameDir);
         DumpData(audioGroup1, audioGroup1Name, outputDir, assetDumpers);
@@ -64,11 +65,11 @@ internal static class Program {
         Directory.CreateDirectory(directory);
         Console.WriteLine("Dumping data file to directory: " + directory);
 
-        var fileWriter = new FileWriter(outputDir);
-
         foreach (var assetDumper in assetDumpers) {
-            Console.WriteLine("Running asset dumper: " + assetDumper.GetType().Name);
-            if (assetDumper.ShouldDump())
+            Console.WriteLine($"Running asset dumper: {assetDumper.Name} ({assetDumper.GetType().Name})");
+            var fileWriter = new FileWriter(Path.Combine(directory, assetDumper.Name));
+
+            if (assetDumper.ShouldDump(data))
                 assetDumper.Dump(data, fileWriter);
             else
                 fileWriter.WritePlaceholder();

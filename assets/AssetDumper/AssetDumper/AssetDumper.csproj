@@ -11,8 +11,4 @@
       <ProjectReference Include="..\UndertaleModTool\UndertaleModLib\UndertaleModLib.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Dumpers" />
-    </ItemGroup>
-
 </Project>

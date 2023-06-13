@@ -3,7 +3,9 @@
 namespace AssetDumper;
 
 public interface IAssetDumper {
-    bool ShouldDump();
+    string Name { get; }
+
+    bool ShouldDump(UndertaleData data);
 
     void Dump(UndertaleData data, FileWriter w);
 }
