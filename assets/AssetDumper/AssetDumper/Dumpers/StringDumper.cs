@@ -6,9 +6,8 @@ using UndertaleModLib.Models;
 
 namespace AssetDumper.Dumpers;
 
+[Dumper("strings")]
 public sealed class StringDumper : AbstractListDumper<UndertaleString> {
-    public override string Name => "strings";
-
     public override void Dump(UndertaleData data, FileWriter w) {
         // base.Dump(data, w);
 

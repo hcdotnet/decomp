@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
+using System.Reflection;
 using AssetDumper.Dumpers;
 using UndertaleModLib;
 
@@ -38,7 +40,17 @@ internal static class Program {
         Console.WriteLine("Using game directory: " + gameDir);
         Console.WriteLine("Using output directory: " + outputDir);
 
-        var assetDumpers = new IAssetDumper[] { new ShaderDumper(), new StringDumper(), new EmbeddedAudioDumper() };
+        var assetDumpers = new Dictionary<string, IAssetDumper>();
+
+        foreach (var type in typeof(Program).Assembly.GetTypes()) {
+            if (type.GetCustomAttribute<DumperAttribute>() is not { } attribute)
+                continue;
+
+            if (Activator.CreateInstance(type) is not IAssetDumper dumper)
+                continue;
+
+            assetDumpers.Add(attribute.Name, dumper);
+        }
 
         var (audioGroup1, audioGroup1Name) = GetDataFile("audiogroup1.dat", gameDir);
         DumpData(audioGroup1, audioGroup1Name, outputDir, assetDumpers);
@@ -60,17 +72,17 @@ internal static class Program {
         return (UndertaleIO.Read(stream), Path.GetFileNameWithoutExtension(fileName));
     }
 
-    private static void DumpData(UndertaleData data, string dataName, string outputDir, params IAssetDumper[] assetDumpers) {
+    private static void DumpData(UndertaleData data, string dataName, string outputDir, Dictionary<string, IAssetDumper> assetDumpers) {
         var directory = Path.Combine(outputDir, dataName);
         Directory.CreateDirectory(directory);
         Console.WriteLine("Dumping data file to directory: " + directory);
 
         foreach (var assetDumper in assetDumpers) {
-            Console.WriteLine($"Running asset dumper: {assetDumper.Name} ({assetDumper.GetType().Name})");
-            var fileWriter = new FileWriter(Path.Combine(directory, assetDumper.Name));
+            Console.WriteLine($"Running asset dumper: {assetDumper.Key} ({assetDumper.Value.GetType().Name})");
+            var fileWriter = new FileWriter(Path.Combine(directory, assetDumper.Key));
 
-            if (assetDumper.ShouldDump(data))
-                assetDumper.Dump(data, fileWriter);
+            if (assetDumper.Value.ShouldDump(data))
+                assetDumper.Value.Dump(data, fileWriter);
             else
                 fileWriter.WritePlaceholder();
         }

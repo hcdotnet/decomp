@@ -5,9 +5,8 @@ using UndertaleModLib.Models;
 
 namespace AssetDumper.Dumpers;
 
+[Dumper("shaders")]
 public sealed class ShaderDumper : AbstractListDumper<UndertaleShader> {
-    public override string Name => "shaders";
-
     protected override void DumpListItem(UndertaleData data, UndertaleShader item, FileWriter w) {
         var sb = new StringBuilder();
         sb.AppendLine("Name: " + item.Name.Content);

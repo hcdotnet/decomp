@@ -4,9 +4,8 @@ using UndertaleModLib.Models;
 
 namespace AssetDumper.Dumpers;
 
+[Dumper("embedded_audio")]
 public sealed class EmbeddedAudioDumper : AbstractListDumper<UndertaleEmbeddedAudio> {
-    public override string Name => "embedded_audio";
-
     protected override void DumpListItem(UndertaleData data, UndertaleEmbeddedAudio item, FileWriter w) {
         w.Create(item.Data, item.Name.Content + ".wav");
     }

@@ -4,8 +4,6 @@ using UndertaleModLib;
 namespace AssetDumper.Dumpers;
 
 public abstract class AbstractListDumper<T> : IAssetDumper {
-    public abstract string Name { get; }
-
     public bool ShouldDump(UndertaleData data) {
         var list = GetList(data);
         return list is not null && list.Count > 0;
