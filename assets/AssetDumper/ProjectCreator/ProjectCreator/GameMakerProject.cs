@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using System.IO;
 using ProjectCreator.DumpedAssetHandler;
 using YoYoStudio;
@@ -30,3 +30,4 @@ public sealed class GameMakerProject {
         Project.Save(null, null, null);
     }
 }
+*/

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.IO;
-using ProjectCreator.DumpedAssetHandler;
-using ProjectCreator.ProjectCreator;
-using YoYoStudio.Core.Utils;
 
 namespace ProjectCreator;
 
@@ -33,12 +30,12 @@ internal static class Program {
         Console.WriteLine("Using project path: " + projectPath);
         Directory.CreateDirectory(projectPath);
         
-        MacroExpansion.Initialise();
+        /*MacroExpansion.Initialise();
         Log.Initialise();
 
         var dataRoot = AssetRoot.FromDirectory(Path.Combine(assetPath, "data"));
         var project = new GameMakerProject(projectPath, "HoloCure");
         project.ImportAssetRoot(dataRoot);
-        project.Save();
+        project.Save();*/
     }
 }
