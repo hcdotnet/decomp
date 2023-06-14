@@ -68,7 +68,7 @@ public class SoundInfo {
 [Dumper("sounds")]
 public sealed class SoundDumper : AbstractListDumper<UndertaleSound> {
     protected override void DumpListItem(UndertaleData data, UndertaleSound item, FileWriter w) {
-        var path = w.GetPath(item.AudioGroup.Name.Content, item.Name.Content + ".json");
+        var path = w.GetRelativePath(item.AudioGroup.Name.Content, item.Name.Content + ".json");
 
         w.Create(JsonConvert.SerializeObject(SoundInfo.FromGameMakerObject(item), Formatting.Indented), path);
         // w.Create(item.AudioFile.Data, path, item.AudioFile.Name.Content + ".wav");

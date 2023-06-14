@@ -6,6 +6,8 @@ namespace AssetDumper.Dumpers;
 public sealed class DumperAttribute : Attribute {
     public string Name { get; }
 
+    public bool Large { get; set; } = false;
+
     public DumperAttribute(string name) {
         Name = name;
     }

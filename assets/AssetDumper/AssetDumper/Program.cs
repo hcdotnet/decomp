@@ -49,6 +49,14 @@ internal static class Program {
             if (Activator.CreateInstance(type) is not IAssetDumper dumper)
                 continue;
 
+            if (attribute.Large) {
+                Console.Write($"Run large asset dumper \"{attribute.Name}\" ({type.Name})? (y/N) ");
+                var response = Console.ReadKey();
+                Console.WriteLine();
+                if (response.Key is not ConsoleKey.Y)
+                    continue;
+            }
+
             assetDumpers.Add(attribute.Name, dumper);
         }
 
@@ -75,10 +83,11 @@ internal static class Program {
     private static void DumpData(UndertaleData data, string dataName, string outputDir, Dictionary<string, IAssetDumper> assetDumpers) {
         var directory = Path.Combine(outputDir, dataName);
 
-        if (Directory.Exists(directory)) {
+        // Delete individual directories instead.
+        /*if (Directory.Exists(directory)) {
             Console.WriteLine("Deleting existing directory: " + directory);
             Directory.Delete(directory, true);
-        }
+        }*/
 
         Directory.CreateDirectory(directory);
         Console.WriteLine("Dumping data file to directory: " + directory);
@@ -86,6 +95,13 @@ internal static class Program {
         foreach (var assetDumper in assetDumpers) {
             Console.WriteLine($"Running asset dumper: {assetDumper.Key} ({assetDumper.Value.GetType().Name})");
             var fileWriter = new FileWriter(Path.Combine(directory, assetDumper.Key));
+
+            if (Directory.Exists(fileWriter.BaseDirectory)) {
+                Console.WriteLine("Deleting existing directory: " + fileWriter.BaseDirectory);
+                Directory.Delete(fileWriter.BaseDirectory, true);
+            }
+
+            Directory.CreateDirectory(fileWriter.BaseDirectory);
 
             if (assetDumper.Value.ShouldDump(data))
                 assetDumper.Value.Dump(data, fileWriter);

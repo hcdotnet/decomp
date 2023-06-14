@@ -34,4 +34,6 @@ public sealed class FileWriter {
     }
 
     public string GetPath(params string[] path) => Path.Combine(BaseDirectory, Path.Combine(path));
+
+    public string GetRelativePath(params string[] path) => Path.Combine(path);
 }
