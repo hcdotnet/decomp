@@ -8,7 +8,19 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\AssetDumper\AssetDumper.csproj" />
+        <ProjectReference Include="..\AssetDumper\AssetDumper.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="Utils">
+            <HintPath>$(HC_GAMEMAKER_PATH)\Utils.dll</HintPath>
+        </Reference>
+        <Reference Include="IDE">
+            <HintPath>$(HC_GAMEMAKER_PATH)\IDE.dll</HintPath>
+        </Reference>
+        <Reference Include="CoreResources">
+            <HintPath>$(HC_GAMEMAKER_PATH)\CoreResources.dll</HintPath>
+        </Reference>
     </ItemGroup>
 
 </Project>

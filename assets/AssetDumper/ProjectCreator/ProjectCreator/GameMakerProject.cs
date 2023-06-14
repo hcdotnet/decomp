@@ -1,50 +1,32 @@
-﻿using System.Collections.Generic;
-using Newtonsoft.Json;
+﻿using System;
+using System.IO;
 using ProjectCreator.DumpedAssetHandler;
+using YoYoStudio;
+using YoYoStudio.Resources;
 
-namespace ProjectCreator.ProjectSystem;
+namespace ProjectCreator.ProjectCreator;
 
 public sealed class GameMakerProject {
-    [JsonProperty("resourceType")]
-    public ResourceType ResourceType { get; set; } = ResourceType.GmProject;
+    public string Directory { get; }
 
-    [JsonProperty("resourceVersion")]
-    public string ResourceVersion { get; set; } = "1.7";
+    public string Name { get; }
 
-    [JsonProperty("name")]
-    public string Name { get; set; }
+    public GMProject Project { get; set; }
 
-    [JsonProperty("AudioGroups")]
-    public List<AudioGroup> AudioGroups { get; set; } = new ();
-
-    [JsonProperty("configs")]
-    public Configs Configs { get; set; } = new();
-
-    [JsonProperty("defaultScriptType")]
-    public int DefaultScriptType { get; set; } = 0;
-
-    [JsonProperty("Folders")]
-    public List<Folder> Folders { get; set; } = new();
-
-    // TODO
-    public List<object> IncludedFiles { get; set; } = new();
-
-    public bool IsEcma { get; set; } = false;
-
-    // TODO
-    public List<object> LibraryEmitters { get; set; } = new();
-
-    // TODO
-    [JsonProperty("MetaData")]
-    public Metadata Metadata { get; set; } = new();
-
-    public List<Resource> Resources { get; set; } = new();
-
-    public GameMakerProject(string name) {
+    public GameMakerProject(string directory, string name) {
+        Directory = directory;
         Name = name;
+
+        IDE.NewProject2(Path.Combine(directory, name + ".yyp"), eDefaultScriptType.GML, _sendAnalytic: false);
+        Project = ProjectInfo.Current;
+        Console.WriteLine(Project);
     }
 
-    public void ImportAssetRoot(AssetRoot root) { }
+    public void ImportAssetRoot(AssetRoot root) {
+        // TODO
+    }
 
-    public void WriteToDirectory(string directory) { }
+    public void Save() {
+        Project.Save(null, null, null);
+    }
 }
