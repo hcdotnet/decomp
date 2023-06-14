@@ -25,7 +25,6 @@ internal static class Program {
 
         gameDir ??= Environment.GetEnvironmentVariable("HCDN_ASSET_DUMPER_GAME_DIR");
         outputDir ??= Environment.GetEnvironmentVariable("HCDN_ASSET_DUMPER_OUTPUT_DIR");
-        var varsUnset = gameDir is null || outputDir is null;
 
         while (gameDir is null || !Directory.Exists(gameDir)) {
             Console.WriteLine("Please enter a valid game directory:");

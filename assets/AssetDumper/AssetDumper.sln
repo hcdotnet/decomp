@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UndertaleModLib", "Undertal
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetDumper", "AssetDumper\AssetDumper.csproj", "{385A87A6-4F0F-42BF-81A7-A9852F0BCA68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectCreator", "ProjectCreator\ProjectCreator.csproj", "{9F1F6F57-2045-43C2-B16C-F08F842398DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{385A87A6-4F0F-42BF-81A7-A9852F0BCA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{385A87A6-4F0F-42BF-81A7-A9852F0BCA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{385A87A6-4F0F-42BF-81A7-A9852F0BCA68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F1F6F57-2045-43C2-B16C-F08F842398DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F1F6F57-2045-43C2-B16C-F08F842398DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F1F6F57-2045-43C2-B16C-F08F842398DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F1F6F57-2045-43C2-B16C-F08F842398DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
