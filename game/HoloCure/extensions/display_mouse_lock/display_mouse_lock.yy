@@ -26,7 +26,7 @@
             2,
           ],"documentation":"","externalName":"display_mouse_lock","help":"","hidden":false,"kind":1,"returnType":2,},
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"display_mouse_unlock","argCount":0,"args":[],"documentation":"","externalName":"display_mouse_unlock","help":"","hidden":false,"kind":1,"returnType":2,},
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"display_mouse_bounds_raw","argCount":0,"args":[],"documentation":"","externalName":"","help":"","hidden":false,"kind":1,"returnType":1,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"display_mouse_bounds_raw","argCount":0,"args":[],"documentation":"","externalName":"display_mouse_bounds_raw","help":"","hidden":false,"kind":1,"returnType":2,},
       ],"init":"","kind":1,"order":[],"origname":"","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
   ],
   "gradleinject": "",

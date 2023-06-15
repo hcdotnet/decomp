@@ -83,7 +83,7 @@ public sealed class GmProject : ResourceBase {
             IncludedFiles = new List<GmIncludedFile>(),
             IsEcma = false,
             LibraryEmitters = new List<ResourceLinkTarget>(),
-            Metadata = {
+            Metadata = new Dictionary<string, string> {
                 { "IDEVersion", "2023.4.0.84" }, // TODO: necessary? better default?
             },
             Resources = new List<ResourceWeight>(), // todo: do I bother with a default room?
@@ -102,8 +102,8 @@ public sealed class GmProject : ResourceBase {
                     LoadType = "default",
                     MipsToGenerate = 0,
                     Targets = TargetPlatforms.AllPlatforms,
-                }
-            }
+                },
+            },
         };
     }
 

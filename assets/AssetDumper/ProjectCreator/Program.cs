@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using ProjectCreator.ProjectCreator;
 
 namespace ProjectCreator;
 
@@ -29,7 +30,10 @@ internal static class Program {
 
         Console.WriteLine("Using project path: " + projectPath);
         Directory.CreateDirectory(projectPath);
-        
+
+        var project = GameMakerProject.CreateNew("HoloCure");
+        project.WriteToDirectory(projectPath);
+
         /*MacroExpansion.Initialise();
         Log.Initialise();
 

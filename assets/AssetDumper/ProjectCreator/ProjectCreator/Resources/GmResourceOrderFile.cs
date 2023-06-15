@@ -30,7 +30,7 @@ public sealed class GmResourceOrderFile {
                 CreateNameAndPathOrder("Extensions", ++order),
                 CreateNameAndPathOrder("Particle Systems", ++order),
             },
-            FolderOrderSettings = new List<NameAndPathOrder> { }
+            FolderOrderSettings = new List<NameAndPathOrder> { },
         };
     }
 
