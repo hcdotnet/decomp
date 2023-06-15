@@ -1,33 +1,38 @@
-﻿/*using System;
-using System.IO;
-using ProjectCreator.DumpedAssetHandler;
-using YoYoStudio;
-using YoYoStudio.Resources;
+﻿using System.IO;
+using Newtonsoft.Json;
+using ProjectCreator.ProjectCreator.Resources;
 
 namespace ProjectCreator.ProjectCreator;
 
 public sealed class GameMakerProject {
-    public string Directory { get; }
+    // {name}.yyp
+    public GmProject Project { get; set; }
 
-    public string Name { get; }
+    // {name}.resource_order
+    public GmResourceOrderFile OrderFile { get; set; }
 
-    public GMProject Project { get; set; }
+    // see comments in class for how to save
+    public GameMakerOptions Options { get; set; }
 
-    public GameMakerProject(string directory, string name) {
-        Directory = directory;
-        Name = name;
+    public void WriteToDirectory(string directory) {
+        Directory.CreateDirectory(directory);
 
-        IDE.NewProject2(Path.Combine(directory, name + ".yyp"), eDefaultScriptType.GML, _sendAnalytic: false);
-        Project = ProjectInfo.Current;
-        Console.WriteLine(Project);
+        var projectPath = Path.Combine(directory, $"{Project.Name}.yyp");
+        File.WriteAllText(projectPath, JsonConvert.SerializeObject(Project, Formatting.Indented));
+
+        var orderFilePath = Path.Combine(directory, $"{Project.Name}.resource_order");
+        File.WriteAllText(orderFilePath, JsonConvert.SerializeObject(OrderFile, Formatting.Indented));
+
+        Options.WriteToDirectory(Path.Combine(directory, "options"));
     }
 
-    public void ImportAssetRoot(AssetRoot root) {
-        // TODO
-    }
+    public static GameMakerProject CreateNew(string name) {
+        var project = new GameMakerProject {
+            Project = GmProject.CreateNew(name),
+            OrderFile = GmResourceOrderFile.CreateNew(),
+            Options = GameMakerOptions.CreateNew(),
+        };
 
-    public void Save() {
-        Project.Save(null, null, null);
+        return project;
     }
 }
-*/

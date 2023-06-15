@@ -2,7 +2,7 @@
 
 namespace ProjectCreator.ProjectCreator.Resources; 
 
-public class GmFolder {
+public class GmFolder : ResourceBase {
     [JsonProperty("folderPath")]
     public string FolderPath { get; set; }
 }

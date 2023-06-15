@@ -25,5 +25,5 @@ public class GmTextureGroup : GmBaseGroup {
     public int MipsToGenerate { get; set; }
 
     [JsonProperty("groupParent")]
-    public ResourceLinkTarget GroupParent { get; set; }
+    public ResourceLinkTarget? GroupParent { get; set; }
 }
