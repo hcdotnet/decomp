@@ -1,46 +1,1436 @@
 {
+  "resources": [
+    {
+      "id": {
+        "name": "snd_bigbombexplosion",
+        "path": "sounds/snd_bigbombexplosion/snd_bigbombexplosion.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_rain",
+        "path": "sounds/snd_rain/snd_rain.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_trumpet",
+        "path": "sounds/snd_trumpet/snd_trumpet.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_bounce",
+        "path": "sounds/snd_bounce/snd_bounce.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_wavedash",
+        "path": "sounds/snd_wavedash/snd_wavedash.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_songnote",
+        "path": "sounds/snd_songnote/snd_songnote.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_summonShark2",
+        "path": "sounds/snd_summonShark2/snd_summonShark2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_amegroundpound",
+        "path": "sounds/snd_amegroundpound/snd_amegroundpound.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_shortflurry",
+        "path": "sounds/snd_shortflurry/snd_shortflurry.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_twinkle",
+        "path": "sounds/snd_twinkle/snd_twinkle.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_clockhands2",
+        "path": "sounds/snd_clockhands2/snd_clockhands2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_taikoheavyka",
+        "path": "sounds/snd_taikoheavyka/snd_taikoheavyka.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_flurry",
+        "path": "sounds/snd_flurry/snd_flurry.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_stickerremove",
+        "path": "sounds/snd_stickerremove/snd_stickerremove.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_retaliation",
+        "path": "sounds/snd_retaliation/snd_retaliation.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_eliminatemode",
+        "path": "sounds/snd_eliminatemode/snd_eliminatemode.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_tailswipe",
+        "path": "sounds/snd_tailswipe/snd_tailswipe.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_aik",
+        "path": "sounds/snd_aik/snd_aik.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_stickersell",
+        "path": "sounds/snd_stickersell/snd_stickersell.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "bgm_chestopen2_short",
+        "path": "sounds/bgm_chestopen2_short/bgm_chestopen2_short.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_ayamespiritslash",
+        "path": "sounds/snd_ayamespiritslash/snd_ayamespiritslash.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "bgm_intro",
+        "path": "sounds/bgm_intro/bgm_intro.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_specialReady",
+        "path": "sounds/snd_specialReady/snd_specialReady.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_fireexplosion",
+        "path": "sounds/snd_fireexplosion/snd_fireexplosion.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_eldrichscream",
+        "path": "sounds/snd_eldrichscream/snd_eldrichscream.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_punchwoosh",
+        "path": "sounds/snd_punchwoosh/snd_punchwoosh.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_trumpet3c",
+        "path": "sounds/snd_trumpet3c/snd_trumpet3c.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_woosh2",
+        "path": "sounds/snd_woosh2/snd_woosh2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_taikoka",
+        "path": "sounds/snd_taikoka/snd_taikoka.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_boxingpunch",
+        "path": "sounds/snd_boxingpunch/snd_boxingpunch.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "bgm_halloweennight",
+        "path": "sounds/bgm_halloweennight/bgm_halloweennight.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_shoprefund",
+        "path": "sounds/snd_shoprefund/snd_shoprefund.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_feathers",
+        "path": "sounds/snd_feathers/snd_feathers.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_duckshoutwaves",
+        "path": "sounds/snd_duckshoutwaves/snd_duckshoutwaves.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_explosion",
+        "path": "sounds/snd_explosion/snd_explosion.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_duckshout",
+        "path": "sounds/snd_duckshout/snd_duckshout.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_card",
+        "path": "sounds/snd_card/snd_card.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_aceroladrop",
+        "path": "sounds/snd_aceroladrop/snd_aceroladrop.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_demonlord",
+        "path": "sounds/snd_demonlord/snd_demonlord.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_menu_back",
+        "path": "sounds/snd_menu_back/snd_menu_back.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_zap",
+        "path": "sounds/snd_zap/snd_zap.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_bossdefeated",
+        "path": "sounds/snd_bossdefeated/snd_bossdefeated.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_yubiget",
+        "path": "sounds/snd_yubiget/snd_yubiget.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_lowwoosh",
+        "path": "sounds/snd_lowwoosh/snd_lowwoosh.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_charging",
+        "path": "sounds/snd_charging/snd_charging.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_insanityspider",
+        "path": "sounds/snd_insanityspider/snd_insanityspider.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_amejump",
+        "path": "sounds/snd_amejump/snd_amejump.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_reaperabsorb",
+        "path": "sounds/snd_reaperabsorb/snd_reaperabsorb.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_eldritchgroan",
+        "path": "sounds/snd_eldritchgroan/snd_eldritchgroan.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_dropland",
+        "path": "sounds/snd_dropland/snd_dropland.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "bgm_concert",
+        "path": "sounds/bgm_concert/bgm_concert.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_whirlpoolsplash",
+        "path": "sounds/snd_whirlpoolsplash/snd_whirlpoolsplash.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_menu_confirm",
+        "path": "sounds/snd_menu_confirm/snd_menu_confirm.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_dynamitebody",
+        "path": "sounds/snd_dynamitebody/snd_dynamitebody.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_stellar",
+        "path": "sounds/snd_stellar/snd_stellar.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_hispec",
+        "path": "sounds/snd_hispec/snd_hispec.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_alert",
+        "path": "sounds/snd_alert/snd_alert.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_treesummon",
+        "path": "sounds/snd_treesummon/snd_treesummon.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_coexistready",
+        "path": "sounds/snd_coexistready/snd_coexistready.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_break",
+        "path": "sounds/snd_break/snd_break.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "bgm_gameover",
+        "path": "sounds/bgm_gameover/bgm_gameover.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_statup",
+        "path": "sounds/snd_statup/snd_statup.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_absorbtako",
+        "path": "sounds/snd_absorbtako/snd_absorbtako.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_enchanting",
+        "path": "sounds/snd_enchanting/snd_enchanting.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_horror",
+        "path": "sounds/snd_horror/snd_horror.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_wamywater",
+        "path": "sounds/snd_wamywater/snd_wamywater.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_throwspinning",
+        "path": "sounds/snd_throwspinning/snd_throwspinning.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_treestab",
+        "path": "sounds/snd_treestab/snd_treestab.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_gachaopening",
+        "path": "sounds/snd_gachaopening/snd_gachaopening.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_konkon",
+        "path": "sounds/snd_konkon/snd_konkon.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "bgm_adtruck",
+        "path": "sounds/bgm_adtruck/bgm_adtruck.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_kickexplosion",
+        "path": "sounds/snd_kickexplosion/snd_kickexplosion.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_timegateend",
+        "path": "sounds/snd_timegateend/snd_timegateend.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_timeblast",
+        "path": "sounds/snd_timeblast/snd_timeblast.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_reroll",
+        "path": "sounds/snd_reroll/snd_reroll.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_getEXP",
+        "path": "sounds/snd_getEXP/snd_getEXP.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_heal1",
+        "path": "sounds/snd_heal1/snd_heal1.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_tailplug2",
+        "path": "sounds/snd_tailplug2/snd_tailplug2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_bonk",
+        "path": "sounds/snd_bonk/snd_bonk.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_timeslow",
+        "path": "sounds/snd_timeslow/snd_timeslow.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_stickerSwap",
+        "path": "sounds/snd_stickerSwap/snd_stickerSwap.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_woosh1",
+        "path": "sounds/snd_woosh1/snd_woosh1.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_acerolabuff",
+        "path": "sounds/snd_acerolabuff/snd_acerolabuff.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_lvlup",
+        "path": "sounds/snd_lvlup/snd_lvlup.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_trumpet3b",
+        "path": "sounds/snd_trumpet3b/snd_trumpet3b.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_anvil",
+        "path": "sounds/snd_anvil/snd_anvil.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_achievementget",
+        "path": "sounds/snd_achievementget/snd_achievementget.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_cursefire",
+        "path": "sounds/snd_cursefire/snd_cursefire.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_aikbeam",
+        "path": "sounds/snd_aikbeam/snd_aikbeam.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_bullet",
+        "path": "sounds/snd_bullet/snd_bullet.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_hit2",
+        "path": "sounds/snd_hit2/snd_hit2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_coin",
+        "path": "sounds/snd_coin/snd_coin.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_bassdrop",
+        "path": "sounds/snd_bassdrop/snd_bassdrop.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_fireslash",
+        "path": "sounds/snd_fireslash/snd_fireslash.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_timegate",
+        "path": "sounds/snd_timegate/snd_timegate.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_teleport",
+        "path": "sounds/snd_teleport/snd_teleport.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_catsummon",
+        "path": "sounds/snd_catsummon/snd_catsummon.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_punchimpact",
+        "path": "sounds/snd_punchimpact/snd_punchimpact.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_bullet2",
+        "path": "sounds/snd_bullet2/snd_bullet2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_stickerDone",
+        "path": "sounds/snd_stickerDone/snd_stickerDone.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_taikodrumhit",
+        "path": "sounds/snd_taikodrumhit/snd_taikodrumhit.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_specialuse",
+        "path": "sounds/snd_specialuse/snd_specialuse.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_delivery",
+        "path": "sounds/snd_delivery/snd_delivery.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_friendzone",
+        "path": "sounds/snd_friendzone/snd_friendzone.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_holymana",
+        "path": "sounds/snd_holymana/snd_holymana.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_earthquake",
+        "path": "sounds/snd_earthquake/snd_earthquake.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_concertexplode",
+        "path": "sounds/snd_concertexplode/snd_concertexplode.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_timeBubble",
+        "path": "sounds/snd_timeBubble/snd_timeBubble.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_converted",
+        "path": "sounds/snd_converted/snd_converted.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_menu_select",
+        "path": "sounds/snd_menu_select/snd_menu_select.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_nursed",
+        "path": "sounds/snd_nursed/snd_nursed.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_countdown",
+        "path": "sounds/snd_countdown/snd_countdown.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_trumpet3",
+        "path": "sounds/snd_trumpet3/snd_trumpet3.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "bgm_chestopen1_short",
+        "path": "sounds/bgm_chestopen1_short/bgm_chestopen1_short.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_eliminated",
+        "path": "sounds/snd_eliminated/snd_eliminated.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_chainsaw",
+        "path": "sounds/snd_chainsaw/snd_chainsaw.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_bat",
+        "path": "sounds/snd_bat/snd_bat.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_duckasmr",
+        "path": "sounds/snd_duckasmr/snd_duckasmr.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_explodealert",
+        "path": "sounds/snd_explodealert/snd_explodealert.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_trumpet2b",
+        "path": "sounds/snd_trumpet2b/snd_trumpet2b.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_clockhands",
+        "path": "sounds/snd_clockhands/snd_clockhands.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_magiccirclecreate",
+        "path": "sounds/snd_magiccirclecreate/snd_magiccirclecreate.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_charSelectWoosh",
+        "path": "sounds/snd_charSelectWoosh/snd_charSelectWoosh.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_debuff",
+        "path": "sounds/snd_debuff/snd_debuff.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_summonphoenix",
+        "path": "sounds/snd_summonphoenix/snd_summonphoenix.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_gachading",
+        "path": "sounds/snd_gachading/snd_gachading.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_reapersound",
+        "path": "sounds/snd_reapersound/snd_reapersound.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_yubi",
+        "path": "sounds/snd_yubi/snd_yubi.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_goldanvildrop",
+        "path": "sounds/snd_goldanvildrop/snd_goldanvildrop.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_magicCircle",
+        "path": "sounds/snd_magicCircle/snd_magicCircle.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "bgm_SSS",
+        "path": "sounds/bgm_SSS/bgm_SSS.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_chargedshot",
+        "path": "sounds/snd_chargedshot/snd_chargedshot.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_bullet3",
+        "path": "sounds/snd_bullet3/snd_bullet3.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_bossenrage",
+        "path": "sounds/snd_bossenrage/snd_bossenrage.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_nephilimshot",
+        "path": "sounds/snd_nephilimshot/snd_nephilimshot.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_firepotato",
+        "path": "sounds/snd_firepotato/snd_firepotato.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_AxeThrow",
+        "path": "sounds/snd_AxeThrow/snd_AxeThrow.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_failed",
+        "path": "sounds/snd_failed/snd_failed.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_lava",
+        "path": "sounds/snd_lava/snd_lava.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_hurt",
+        "path": "sounds/snd_hurt/snd_hurt.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_cursespread",
+        "path": "sounds/snd_cursespread/snd_cursespread.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "bgm_chestopen2",
+        "path": "sounds/bgm_chestopen2/bgm_chestopen2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_revive",
+        "path": "sounds/snd_revive/snd_revive.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_summonShark1",
+        "path": "sounds/snd_summonShark1/snd_summonShark1.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_clockhands3",
+        "path": "sounds/snd_clockhands3/snd_clockhands3.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "bgm_gamewin",
+        "path": "sounds/bgm_gamewin/bgm_gamewin.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_tailinit",
+        "path": "sounds/snd_tailinit/snd_tailinit.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "bgm_chestopen1",
+        "path": "sounds/bgm_chestopen1/bgm_chestopen1.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_hit1",
+        "path": "sounds/snd_hit1/snd_hit1.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_trumpet2c",
+        "path": "sounds/snd_trumpet2c/snd_trumpet2c.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_iryslight",
+        "path": "sounds/snd_iryslight/snd_iryslight.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_sakura",
+        "path": "sounds/snd_sakura/snd_sakura.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_trumpetb",
+        "path": "sounds/snd_trumpetb/snd_trumpetb.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_leaves",
+        "path": "sounds/snd_leaves/snd_leaves.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_becomebig",
+        "path": "sounds/snd_becomebig/snd_becomebig.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_nyeh",
+        "path": "sounds/snd_nyeh/snd_nyeh.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_electricfield",
+        "path": "sounds/snd_electricfield/snd_electricfield.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_laser",
+        "path": "sounds/snd_laser/snd_laser.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_hit3",
+        "path": "sounds/snd_hit3/snd_hit3.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_bark",
+        "path": "sounds/snd_bark/snd_bark.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_headphonesbounce",
+        "path": "sounds/snd_headphonesbounce/snd_headphonesbounce.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_tearsstream",
+        "path": "sounds/snd_tearsstream/snd_tearsstream.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_brainwash",
+        "path": "sounds/snd_brainwash/snd_brainwash.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_taikodrumHeavyHit",
+        "path": "sounds/snd_taikodrumHeavyHit/snd_taikodrumHeavyHit.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_ayamespiritsummon",
+        "path": "sounds/snd_ayamespiritsummon/snd_ayamespiritsummon.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_rockbreak",
+        "path": "sounds/snd_rockbreak/snd_rockbreak.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_fullconcert",
+        "path": "sounds/snd_fullconcert/snd_fullconcert.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "bgm_chestopen3",
+        "path": "sounds/bgm_chestopen3/bgm_chestopen3.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_mogumogutime",
+        "path": "sounds/snd_mogumogutime/snd_mogumogutime.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_heal2",
+        "path": "sounds/snd_heal2/snd_heal2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_banned",
+        "path": "sounds/snd_banned/snd_banned.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_phoenixcry",
+        "path": "sounds/snd_phoenixcry/snd_phoenixcry.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_enemyAttack",
+        "path": "sounds/snd_enemyAttack/snd_enemyAttack.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_tears",
+        "path": "sounds/snd_tears/snd_tears.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_tailplug3",
+        "path": "sounds/snd_tailplug3/snd_tailplug3.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_anvildrop",
+        "path": "sounds/snd_anvildrop/snd_anvildrop.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_bigexplod",
+        "path": "sounds/snd_bigexplod/snd_bigexplod.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_shopBuy",
+        "path": "sounds/snd_shopBuy/snd_shopBuy.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_magicblast",
+        "path": "sounds/snd_magicblast/snd_magicblast.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "bgm_candygoround",
+        "path": "sounds/bgm_candygoround/bgm_candygoround.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_kapu",
+        "path": "sounds/snd_kapu/snd_kapu.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_dice",
+        "path": "sounds/snd_dice/snd_dice.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "bgm_suspect",
+        "path": "sounds/bgm_suspect/bgm_suspect.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_ADF",
+        "path": "sounds/snd_ADF/snd_ADF.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "bgm_stardust",
+        "path": "sounds/bgm_stardust/bgm_stardust.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_heavyhit",
+        "path": "sounds/snd_heavyhit/snd_heavyhit.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_haatoproj",
+        "path": "sounds/snd_haatoproj/snd_haatoproj.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_tailplug",
+        "path": "sounds/snd_tailplug/snd_tailplug.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_normalthrow",
+        "path": "sounds/snd_normalthrow/snd_normalthrow.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_constantfire",
+        "path": "sounds/snd_constantfire/snd_constantfire.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_charSelected",
+        "path": "sounds/snd_charSelected/snd_charSelected.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_trumpet2",
+        "path": "sounds/snd_trumpet2/snd_trumpet2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_fireworks",
+        "path": "sounds/snd_fireworks/snd_fireworks.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_getmoney",
+        "path": "sounds/snd_getmoney/snd_getmoney.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_gacha_get",
+        "path": "sounds/snd_gacha_get/snd_gacha_get.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_iceshatter",
+        "path": "sounds/snd_iceshatter/snd_iceshatter.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_formchange",
+        "path": "sounds/snd_formchange/snd_formchange.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_attackreflect",
+        "path": "sounds/snd_attackreflect/snd_attackreflect.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_goldenyagoo",
+        "path": "sounds/snd_goldenyagoo/snd_goldenyagoo.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_trumpetc",
+        "path": "sounds/snd_trumpetc/snd_trumpetc.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_tentacle",
+        "path": "sounds/snd_tentacle/snd_tentacle.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_icicle",
+        "path": "sounds/snd_icicle/snd_icicle.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_needlestab",
+        "path": "sounds/snd_needlestab/snd_needlestab.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_bigwoosh",
+        "path": "sounds/snd_bigwoosh/snd_bigwoosh.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_stomp",
+        "path": "sounds/snd_stomp/snd_stomp.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "bgm_chestopen3_short",
+        "path": "sounds/bgm_chestopen3_short/bgm_chestopen3_short.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "snd_stickerdrop",
+        "path": "sounds/snd_stickerdrop/snd_stickerdrop.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "display_mouse_lock",
+        "path": "extensions/display_mouse_lock/display_mouse_lock.yy"
+      }
+    }
+  ],
+  "isDnDProject": false,
+  "defaultScriptType": 0,
+  "isEcma": false,
+  "Config": {
+    "name": "Default",
+    "children": []
+  },
+  "RoomOrderNodes": [],
+  "Folders": [
+    {
+      "folderPath": "folders/Sprites.yy",
+      "ConfigValues": null,
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Sprites",
+      "parent": null
+    },
+    {
+      "folderPath": "folders/Tile Sets.yy",
+      "ConfigValues": null,
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Tile Sets",
+      "parent": null
+    },
+    {
+      "folderPath": "folders/Sounds.yy",
+      "ConfigValues": null,
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Sounds",
+      "parent": null
+    },
+    {
+      "folderPath": "folders/Paths.yy",
+      "ConfigValues": null,
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Paths",
+      "parent": null
+    },
+    {
+      "folderPath": "folders/Scripts.yy",
+      "ConfigValues": null,
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Scripts",
+      "parent": null
+    },
+    {
+      "folderPath": "folders/Shaders.yy",
+      "ConfigValues": null,
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Shaders",
+      "parent": null
+    },
+    {
+      "folderPath": "folders/Fonts.yy",
+      "ConfigValues": null,
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Fonts",
+      "parent": null
+    },
+    {
+      "folderPath": "folders/Timelines.yy",
+      "ConfigValues": null,
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Timelines",
+      "parent": null
+    },
+    {
+      "folderPath": "folders/Objects.yy",
+      "ConfigValues": null,
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Objects",
+      "parent": null
+    },
+    {
+      "folderPath": "folders/Rooms.yy",
+      "ConfigValues": null,
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Rooms",
+      "parent": null
+    },
+    {
+      "folderPath": "folders/Sequences.yy",
+      "ConfigValues": null,
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Sequences",
+      "parent": null
+    },
+    {
+      "folderPath": "folders/Animation Curves.yy",
+      "ConfigValues": null,
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Animation Curves",
+      "parent": null
+    },
+    {
+      "folderPath": "folders/Notes.yy",
+      "ConfigValues": null,
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Notes",
+      "parent": null
+    },
+    {
+      "folderPath": "folders/Extensions.yy",
+      "ConfigValues": null,
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Extensions",
+      "parent": null
+    },
+    {
+      "folderPath": "folders/Particle Systems.yy",
+      "ConfigValues": null,
+      "resourceType": "GMFolder",
+      "resourceVersion": "1.0",
+      "name": "Particle Systems",
+      "parent": null
+    }
+  ],
+  "AudioGroups": [
+    {
+      "targets": -1,
+      "ConfigValues": null,
+      "resourceType": "GMAudioGroup",
+      "resourceVersion": "1.3",
+      "name": "audiogroup_default",
+      "parent": null
+    },
+    {
+      "targets": -1,
+      "ConfigValues": null,
+      "resourceType": "GMAudioGroup",
+      "resourceVersion": "1.3",
+      "name": "bgm",
+      "parent": null
+    },
+    {
+      "targets": -1,
+      "ConfigValues": null,
+      "resourceType": "GMAudioGroup",
+      "resourceVersion": "1.3",
+      "name": "sfx",
+      "parent": null
+    }
+  ],
+  "TextureGroups": [
+    {
+      "isScaled": true,
+      "compressFormat": "bz2",
+      "loadType": "default",
+      "directory": "",
+      "autocrop": true,
+      "border": 2,
+      "mipsToGenerate": 0,
+      "groupParent": null,
+      "targets": -1,
+      "ConfigValues": null,
+      "resourceType": "GMTextureGroup",
+      "resourceVersion": "1.3",
+      "name": "Default",
+      "parent": null
+    }
+  ],
+  "IncludedFiles": [],
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2023.4.0.84"
+  },
+  "ConfigValues": null,
   "resourceType": "GMProject",
   "resourceVersion": "1.7",
   "name": "HoloCure",
-  "AudioGroups": [
-    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
-    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
-    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"bgm","targets":-1,},
-    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"sfx","targets":-1,},
-  ],
-  "configs": {
-    "children": [],
-    "name": "Default",
-  },
-  "defaultScriptType": 0,
-  "Folders": [
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Fonts","folderPath":"folders/Fonts.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Objects","folderPath":"folders/Objects.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sequences","folderPath":"folders/Sequences.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shaders","folderPath":"folders/Shaders.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-  ],
-  "IncludedFiles": [],
-  "isEcma": false,
-  "LibraryEmitters": [],
-  "MetaData": {
-    "IDEVersion": "2023.4.0.84",
-  },
-  "resources": [
-    {"id":{"name":"display_mouse_lock","path":"extensions/display_mouse_lock/display_mouse_lock.yy",},},
-  ],
-  "RoomOrderNodes": [],
-  "TextureGroups": [
-    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
-  ],
+  "parent": null
 }

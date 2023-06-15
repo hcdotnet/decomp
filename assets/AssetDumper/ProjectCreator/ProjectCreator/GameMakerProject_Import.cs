@@ -23,6 +23,57 @@ partial class GameMakerProject {
         });
     }
 
+    public void ImportSound(UndertaleSound sound) {
+        var name = sound.Name.Content;
+
+        var resourceLink = new ResourceLinkTarget {
+            Name = name,
+            Path = $"sounds/{name}/{name}.yy",
+        };
+        var resourceWeight = new GmProject.ResourceWeight {
+            Id = resourceLink,
+        };
+        Project.Resources.Add(resourceWeight);
+
+        // TODO: is this correct??
+        /*GmSoundCompression AudioEntryFlagsToGmSoundCompression(UndertaleSound.AudioEntryFlags flags) {
+            return flags switch {
+                UndertaleSound.AudioEntryFlags.IsEmbedded => GmSoundCompression.Uncompressed,
+                UndertaleSound.AudioEntryFlags.IsCompressed => GmSoundCompression.Compressed,
+                UndertaleSound.AudioEntryFlags.IsDecompressedOnLoad => GmSoundCompression.DecompressOnLoad,
+                UndertaleSound.AudioEntryFlags.Regular => GmSoundCompression.CompressedAndStreamed,
+                _ => throw new ArgumentOutOfRangeException(nameof(flags), flags, null),
+            };
+        }*/
+
+        ExpectedVirtualFiles.Add(new VirtualFile($"audiogroup{sound.GroupID}.dat", $"{sound.AudioID} {name}", $"sounds/{name}/{name}.wav", VirtualFileType.Sound));
+
+        // TODO: unused values to pitch from UndertaleSound as well
+        Sounds.Add(new GmSound {
+            ResourceType = "GMSound",
+            ResourceVersion = "1.0",
+            Name = name,
+            AudioGroupId = new ResourceLinkTarget {
+                Name = sound.AudioGroup.Name.Content,
+                Path = $"audiogroups/{sound.AudioGroup.Name.Content}",
+            },
+            BitDepth = (GmSoundBitDepth)1, // TODO
+            BitRate = 128, // TODO
+            Compression = 0, // TODO
+            ConversionMode = 0, // TODO
+            Duration = 0, // TODO
+            Parent = new ResourceLinkTarget {
+                Name = "Sounds",
+                Path = "folders/Sounds.yy",
+            },
+            Preload = false,
+            SampleRate = 44100,
+            SoundFile = name,
+            Type = 0, // TODO
+            Volume = sound.Volume,
+        });
+    }
+
     public void ImportExtension(UndertaleExtension extension) {
         var name = extension.Name.Content;
 
@@ -45,7 +96,7 @@ partial class GameMakerProject {
         );
 
         foreach (var file in extension.Files)
-            ExpectedPhysicalFiles.Add($"extensions/{name}/{file.Filename.Content}", file.Filename.Content);
+            ExpectedPhysicalFiles.Add(new PhysicalFile(file.Filename.Content, $"extensions/{name}/{file.Filename.Content}"));
 
         IEnumerable<GmExtensionFile> MakeExtensionFiles() {
             foreach (var file in extension.Files)
@@ -159,12 +210,18 @@ public static class GameMakerProjectExtensions {
         var data = UndertaleIO.Read(File.OpenRead(dataPath));
 
         project.ImportAudioGroupsFromGame(data);
+        project.ImportSoundsFromGame(data);
         project.ImportExtensionsFromGame(data);
     }
 
     public static void ImportAudioGroupsFromGame(this GameMakerProject project, UndertaleData data) {
         foreach (var audioGroup in data.AudioGroups)
             project.ImportAudioGroup(audioGroup);
+    }
+
+    public static void ImportSoundsFromGame(this GameMakerProject project, UndertaleData data) {
+        foreach (var sound in data.Sounds)
+            project.ImportSound(sound);
     }
 
     public static void ImportExtensionsFromGame(this GameMakerProject project, UndertaleData data) {
