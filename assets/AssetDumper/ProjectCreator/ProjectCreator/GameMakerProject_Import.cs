@@ -2,8 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using NAudio.Wave;
-using NVorbis;
 using ProjectCreator.ProjectCreator.Resources;
 using UndertaleModLib;
 using UndertaleModLib.Models;
@@ -50,28 +48,6 @@ partial class GameMakerProject {
 
         ExpectedVirtualFiles.Add(new VirtualFile($"audiogroup{sound.GroupID}.dat", $"{sound.AudioID} {name}", $"sounds/{name}/{sound.File.Content}", VirtualFileType.Sound));
 
-        // todo: unhardcode
-        float time = -1;
-
-        // todo: ugly as hell, but I can't rely on file extensions being accurate... damn
-        try {
-            using var ms = new MemoryStream(audioGroups[sound.GroupID - 1].EmbeddedAudio.Single(x => x.Name.Content == "EmbeddedSound " + sound.AudioID).Data);
-            using var wfr = new VorbisReader(ms);
-            time = (float)wfr.TotalTime.TotalSeconds;
-        }
-        catch {
-            try {
-                using var ms = new MemoryStream(audioGroups[sound.GroupID - 1].EmbeddedAudio.Single(x => x.Name.Content == "EmbeddedSound " + sound.AudioID).Data);
-                using var wfr = new WaveFileReader(ms);
-                time = (float)wfr.TotalTime.TotalSeconds;
-            }
-            catch {
-                using var ms = new MemoryStream(audioGroups[sound.GroupID - 1].EmbeddedAudio.Single(x => x.Name.Content == "EmbeddedSound " + sound.AudioID).Data);
-                using var wfr = new Mp3FileReader(ms);
-                time = (float)wfr.TotalTime.TotalSeconds;
-            }
-        }
-
         // TODO: unused values to pitch from UndertaleSound as well
         Sounds.Add(new GmSound {
             ResourceType = "GMSound",
@@ -85,7 +61,7 @@ partial class GameMakerProject {
             BitRate = 128, // TODO
             Compression = 0, // TODO
             ConversionMode = 0, // TODO
-            Duration = time,
+            Duration = 0,
             Parent = new ResourceLinkTarget {
                 Name = "Sounds",
                 Path = "folders/Sounds.yy",
