@@ -1,0 +1,1244 @@
+[
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "21 snd_bigbombexplosion",
+    "ProjectPath": "sounds/snd_bigbombexplosion/snd_bigbombexplosion.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "127 snd_rain",
+    "ProjectPath": "sounds/snd_rain/snd_rain.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "173 snd_trumpet",
+    "ProjectPath": "sounds/snd_trumpet/snd_trumpet.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "27 snd_bounce",
+    "ProjectPath": "sounds/snd_bounce/snd_bounce.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "184 snd_wavedash",
+    "ProjectPath": "sounds/snd_wavedash/snd_wavedash.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "138 snd_songnote",
+    "ProjectPath": "sounds/snd_songnote/snd_songnote.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "151 snd_summonShark2",
+    "ProjectPath": "sounds/snd_summonShark2/snd_summonShark2.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "8 snd_amegroundpound",
+    "ProjectPath": "sounds/snd_amegroundpound/snd_amegroundpound.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "137 snd_shortflurry",
+    "ProjectPath": "sounds/snd_shortflurry/snd_shortflurry.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "182 snd_twinkle",
+    "ProjectPath": "sounds/snd_twinkle/snd_twinkle.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "42 snd_clockhands2",
+    "ProjectPath": "sounds/snd_clockhands2/snd_clockhands2.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "154 snd_taikoheavyka",
+    "ProjectPath": "sounds/snd_taikoheavyka/snd_taikoheavyka.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "77 snd_flurry",
+    "ProjectPath": "sounds/snd_flurry/snd_flurry.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "145 snd_stickerremove",
+    "ProjectPath": "sounds/snd_stickerremove/snd_stickerremove.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "131 snd_retaliation",
+    "ProjectPath": "sounds/snd_retaliation/snd_retaliation.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "66 snd_eliminatemode",
+    "ProjectPath": "sounds/snd_eliminatemode/snd_eliminatemode.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "160 snd_tailswipe",
+    "ProjectPath": "sounds/snd_tailswipe/snd_tailswipe.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "5 snd_aik",
+    "ProjectPath": "sounds/snd_aik/snd_aik.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "146 snd_stickersell",
+    "ProjectPath": "sounds/snd_stickersell/snd_stickersell.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup1.dat",
+    "Name": "5 bgm_chestopen2_short",
+    "ProjectPath": "sounds/bgm_chestopen2_short/bgm_chestopen2_short.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "14 snd_ayamespiritslash",
+    "ProjectPath": "sounds/snd_ayamespiritslash/snd_ayamespiritslash.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup1.dat",
+    "Name": "12 bgm_intro",
+    "ProjectPath": "sounds/bgm_intro/bgm_intro.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "139 snd_specialReady",
+    "ProjectPath": "sounds/snd_specialReady/snd_specialReady.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "73 snd_fireexplosion",
+    "ProjectPath": "sounds/snd_fireexplosion/snd_fireexplosion.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "62 snd_eldrichscream",
+    "ProjectPath": "sounds/snd_eldrichscream/snd_eldrichscream.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "126 snd_punchwoosh",
+    "ProjectPath": "sounds/snd_punchwoosh/snd_punchwoosh.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "179 snd_trumpet3c",
+    "ProjectPath": "sounds/snd_trumpet3c/snd_trumpet3c.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "187 snd_woosh2",
+    "ProjectPath": "sounds/snd_woosh2/snd_woosh2.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "155 snd_taikoka",
+    "ProjectPath": "sounds/snd_taikoka/snd_taikoka.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "28 snd_boxingpunch",
+    "ProjectPath": "sounds/snd_boxingpunch/snd_boxingpunch.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup1.dat",
+    "Name": "11 bgm_halloweennight",
+    "ProjectPath": "sounds/bgm_halloweennight/bgm_halloweennight.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "136 snd_shoprefund",
+    "ProjectPath": "sounds/snd_shoprefund/snd_shoprefund.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "72 snd_feathers",
+    "ProjectPath": "sounds/snd_feathers/snd_feathers.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "59 snd_duckshoutwaves",
+    "ProjectPath": "sounds/snd_duckshoutwaves/snd_duckshoutwaves.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "70 snd_explosion",
+    "ProjectPath": "sounds/snd_explosion/snd_explosion.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "58 snd_duckshout",
+    "ProjectPath": "sounds/snd_duckshout/snd_duckshout.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "34 snd_card",
+    "ProjectPath": "sounds/snd_card/snd_card.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "2 snd_aceroladrop",
+    "ProjectPath": "sounds/snd_aceroladrop/snd_aceroladrop.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "54 snd_demonlord",
+    "ProjectPath": "sounds/snd_demonlord/snd_demonlord.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "115 snd_menu_back",
+    "ProjectPath": "sounds/snd_menu_back/snd_menu_back.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "190 snd_zap",
+    "ProjectPath": "sounds/snd_zap/snd_zap.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "25 snd_bossdefeated",
+    "ProjectPath": "sounds/snd_bossdefeated/snd_bossdefeated.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "189 snd_yubiget",
+    "ProjectPath": "sounds/snd_yubiget/snd_yubiget.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "110 snd_lowwoosh",
+    "ProjectPath": "sounds/snd_lowwoosh/snd_lowwoosh.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "38 snd_charging",
+    "ProjectPath": "sounds/snd_charging/snd_charging.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "102 snd_insanityspider",
+    "ProjectPath": "sounds/snd_insanityspider/snd_insanityspider.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "9 snd_amejump",
+    "ProjectPath": "sounds/snd_amejump/snd_amejump.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "128 snd_reaperabsorb",
+    "ProjectPath": "sounds/snd_reaperabsorb/snd_reaperabsorb.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "63 snd_eldritchgroan",
+    "ProjectPath": "sounds/snd_eldritchgroan/snd_eldritchgroan.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "56 snd_dropland",
+    "ProjectPath": "sounds/snd_dropland/snd_dropland.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup1.dat",
+    "Name": "8 bgm_concert",
+    "ProjectPath": "sounds/bgm_concert/bgm_concert.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "185 snd_whirlpoolsplash",
+    "ProjectPath": "sounds/snd_whirlpoolsplash/snd_whirlpoolsplash.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "116 snd_menu_confirm",
+    "ProjectPath": "sounds/snd_menu_confirm/snd_menu_confirm.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "60 snd_dynamitebody",
+    "ProjectPath": "sounds/snd_dynamitebody/snd_dynamitebody.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "142 snd_stellar",
+    "ProjectPath": "sounds/snd_stellar/snd_stellar.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "93 snd_hispec",
+    "ProjectPath": "sounds/snd_hispec/snd_hispec.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "7 snd_alert",
+    "ProjectPath": "sounds/snd_alert/snd_alert.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "172 snd_treesummon",
+    "ProjectPath": "sounds/snd_treesummon/snd_treesummon.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "44 snd_coexistready",
+    "ProjectPath": "sounds/snd_coexistready/snd_coexistready.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "30 snd_break",
+    "ProjectPath": "sounds/snd_break/snd_break.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup1.dat",
+    "Name": "9 bgm_gameover",
+    "ProjectPath": "sounds/bgm_gameover/bgm_gameover.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "141 snd_statup",
+    "ProjectPath": "sounds/snd_statup/snd_statup.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "0 snd_absorbtako",
+    "ProjectPath": "sounds/snd_absorbtako/snd_absorbtako.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "67 snd_enchanting",
+    "ProjectPath": "sounds/snd_enchanting/snd_enchanting.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "98 snd_horror",
+    "ProjectPath": "sounds/snd_horror/snd_horror.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "183 snd_wamywater",
+    "ProjectPath": "sounds/snd_wamywater/snd_wamywater.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "165 snd_throwspinning",
+    "ProjectPath": "sounds/snd_throwspinning/snd_throwspinning.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "171 snd_treestab",
+    "ProjectPath": "sounds/snd_treestab/snd_treestab.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "83 snd_gachaopening",
+    "ProjectPath": "sounds/snd_gachaopening/snd_gachaopening.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "106 snd_konkon",
+    "ProjectPath": "sounds/snd_konkon/snd_konkon.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup1.dat",
+    "Name": "0 bgm_adtruck",
+    "ProjectPath": "sounds/bgm_adtruck/bgm_adtruck.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "105 snd_kickexplosion",
+    "ProjectPath": "sounds/snd_kickexplosion/snd_kickexplosion.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "169 snd_timegateend",
+    "ProjectPath": "sounds/snd_timegateend/snd_timegateend.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "166 snd_timeblast",
+    "ProjectPath": "sounds/snd_timeblast/snd_timeblast.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "130 snd_reroll",
+    "ProjectPath": "sounds/snd_reroll/snd_reroll.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "84 snd_getEXP",
+    "ProjectPath": "sounds/snd_getEXP/snd_getEXP.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "90 snd_heal1",
+    "ProjectPath": "sounds/snd_heal1/snd_heal1.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "158 snd_tailplug2",
+    "ProjectPath": "sounds/snd_tailplug2/snd_tailplug2.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "24 snd_bonk",
+    "ProjectPath": "sounds/snd_bonk/snd_bonk.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "170 snd_timeslow",
+    "ProjectPath": "sounds/snd_timeslow/snd_timeslow.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "147 snd_stickerSwap",
+    "ProjectPath": "sounds/snd_stickerSwap/snd_stickerSwap.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "186 snd_woosh1",
+    "ProjectPath": "sounds/snd_woosh1/snd_woosh1.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "1 snd_acerolabuff",
+    "ProjectPath": "sounds/snd_acerolabuff/snd_acerolabuff.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "111 snd_lvlup",
+    "ProjectPath": "sounds/snd_lvlup/snd_lvlup.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "178 snd_trumpet3b",
+    "ProjectPath": "sounds/snd_trumpet3b/snd_trumpet3b.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "10 snd_anvil",
+    "ProjectPath": "sounds/snd_anvil/snd_anvil.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "3 snd_achievementget",
+    "ProjectPath": "sounds/snd_achievementget/snd_achievementget.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "50 snd_cursefire",
+    "ProjectPath": "sounds/snd_cursefire/snd_cursefire.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "6 snd_aikbeam",
+    "ProjectPath": "sounds/snd_aikbeam/snd_aikbeam.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "31 snd_bullet",
+    "ProjectPath": "sounds/snd_bullet/snd_bullet.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "95 snd_hit2",
+    "ProjectPath": "sounds/snd_hit2/snd_hit2.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "45 snd_coin",
+    "ProjectPath": "sounds/snd_coin/snd_coin.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "18 snd_bassdrop",
+    "ProjectPath": "sounds/snd_bassdrop/snd_bassdrop.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "75 snd_fireslash",
+    "ProjectPath": "sounds/snd_fireslash/snd_fireslash.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "168 snd_timegate",
+    "ProjectPath": "sounds/snd_timegate/snd_timegate.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "163 snd_teleport",
+    "ProjectPath": "sounds/snd_teleport/snd_teleport.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "35 snd_catsummon",
+    "ProjectPath": "sounds/snd_catsummon/snd_catsummon.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "125 snd_punchimpact",
+    "ProjectPath": "sounds/snd_punchimpact/snd_punchimpact.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "32 snd_bullet2",
+    "ProjectPath": "sounds/snd_bullet2/snd_bullet2.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "143 snd_stickerDone",
+    "ProjectPath": "sounds/snd_stickerDone/snd_stickerDone.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "153 snd_taikodrumhit",
+    "ProjectPath": "sounds/snd_taikodrumhit/snd_taikodrumhit.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "140 snd_specialuse",
+    "ProjectPath": "sounds/snd_specialuse/snd_specialuse.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "53 snd_delivery",
+    "ProjectPath": "sounds/snd_delivery/snd_delivery.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "79 snd_friendzone",
+    "ProjectPath": "sounds/snd_friendzone/snd_friendzone.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "97 snd_holymana",
+    "ProjectPath": "sounds/snd_holymana/snd_holymana.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "61 snd_earthquake",
+    "ProjectPath": "sounds/snd_earthquake/snd_earthquake.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "46 snd_concertexplode",
+    "ProjectPath": "sounds/snd_concertexplode/snd_concertexplode.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "167 snd_timeBubble",
+    "ProjectPath": "sounds/snd_timeBubble/snd_timeBubble.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "48 snd_converted",
+    "ProjectPath": "sounds/snd_converted/snd_converted.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "117 snd_menu_select",
+    "ProjectPath": "sounds/snd_menu_select/snd_menu_select.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "122 snd_nursed",
+    "ProjectPath": "sounds/snd_nursed/snd_nursed.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "49 snd_countdown",
+    "ProjectPath": "sounds/snd_countdown/snd_countdown.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "177 snd_trumpet3",
+    "ProjectPath": "sounds/snd_trumpet3/snd_trumpet3.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup1.dat",
+    "Name": "3 bgm_chestopen1_short",
+    "ProjectPath": "sounds/bgm_chestopen1_short/bgm_chestopen1_short.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "65 snd_eliminated",
+    "ProjectPath": "sounds/snd_eliminated/snd_eliminated.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "36 snd_chainsaw",
+    "ProjectPath": "sounds/snd_chainsaw/snd_chainsaw.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "19 snd_bat",
+    "ProjectPath": "sounds/snd_bat/snd_bat.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "57 snd_duckasmr",
+    "ProjectPath": "sounds/snd_duckasmr/snd_duckasmr.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "69 snd_explodealert",
+    "ProjectPath": "sounds/snd_explodealert/snd_explodealert.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "175 snd_trumpet2b",
+    "ProjectPath": "sounds/snd_trumpet2b/snd_trumpet2b.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "41 snd_clockhands",
+    "ProjectPath": "sounds/snd_clockhands/snd_clockhands.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "114 snd_magiccirclecreate",
+    "ProjectPath": "sounds/snd_magiccirclecreate/snd_magiccirclecreate.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "40 snd_charSelectWoosh",
+    "ProjectPath": "sounds/snd_charSelectWoosh/snd_charSelectWoosh.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "52 snd_debuff",
+    "ProjectPath": "sounds/snd_debuff/snd_debuff.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "149 snd_summonphoenix",
+    "ProjectPath": "sounds/snd_summonphoenix/snd_summonphoenix.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "82 snd_gachading",
+    "ProjectPath": "sounds/snd_gachading/snd_gachading.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "129 snd_reapersound",
+    "ProjectPath": "sounds/snd_reapersound/snd_reapersound.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "188 snd_yubi",
+    "ProjectPath": "sounds/snd_yubi/snd_yubi.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "86 snd_goldanvildrop",
+    "ProjectPath": "sounds/snd_goldanvildrop/snd_goldanvildrop.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "113 snd_magicCircle",
+    "ProjectPath": "sounds/snd_magicCircle/snd_magicCircle.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup1.dat",
+    "Name": "13 bgm_SSS",
+    "ProjectPath": "sounds/bgm_SSS/bgm_SSS.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "37 snd_chargedshot",
+    "ProjectPath": "sounds/snd_chargedshot/snd_chargedshot.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "33 snd_bullet3",
+    "ProjectPath": "sounds/snd_bullet3/snd_bullet3.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "26 snd_bossenrage",
+    "ProjectPath": "sounds/snd_bossenrage/snd_bossenrage.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "120 snd_nephilimshot",
+    "ProjectPath": "sounds/snd_nephilimshot/snd_nephilimshot.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "74 snd_firepotato",
+    "ProjectPath": "sounds/snd_firepotato/snd_firepotato.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "13 snd_AxeThrow",
+    "ProjectPath": "sounds/snd_AxeThrow/snd_AxeThrow.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "71 snd_failed",
+    "ProjectPath": "sounds/snd_failed/snd_failed.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "108 snd_lava",
+    "ProjectPath": "sounds/snd_lava/snd_lava.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "99 snd_hurt",
+    "ProjectPath": "sounds/snd_hurt/snd_hurt.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "51 snd_cursespread",
+    "ProjectPath": "sounds/snd_cursespread/snd_cursespread.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup1.dat",
+    "Name": "4 bgm_chestopen2",
+    "ProjectPath": "sounds/bgm_chestopen2/bgm_chestopen2.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "132 snd_revive",
+    "ProjectPath": "sounds/snd_revive/snd_revive.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "150 snd_summonShark1",
+    "ProjectPath": "sounds/snd_summonShark1/snd_summonShark1.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "43 snd_clockhands3",
+    "ProjectPath": "sounds/snd_clockhands3/snd_clockhands3.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup1.dat",
+    "Name": "10 bgm_gamewin",
+    "ProjectPath": "sounds/bgm_gamewin/bgm_gamewin.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "156 snd_tailinit",
+    "ProjectPath": "sounds/snd_tailinit/snd_tailinit.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup1.dat",
+    "Name": "2 bgm_chestopen1",
+    "ProjectPath": "sounds/bgm_chestopen1/bgm_chestopen1.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "94 snd_hit1",
+    "ProjectPath": "sounds/snd_hit1/snd_hit1.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "176 snd_trumpet2c",
+    "ProjectPath": "sounds/snd_trumpet2c/snd_trumpet2c.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "103 snd_iryslight",
+    "ProjectPath": "sounds/snd_iryslight/snd_iryslight.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "134 snd_sakura",
+    "ProjectPath": "sounds/snd_sakura/snd_sakura.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "180 snd_trumpetb",
+    "ProjectPath": "sounds/snd_trumpetb/snd_trumpetb.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "109 snd_leaves",
+    "ProjectPath": "sounds/snd_leaves/snd_leaves.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "20 snd_becomebig",
+    "ProjectPath": "sounds/snd_becomebig/snd_becomebig.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "123 snd_nyeh",
+    "ProjectPath": "sounds/snd_nyeh/snd_nyeh.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "64 snd_electricfield",
+    "ProjectPath": "sounds/snd_electricfield/snd_electricfield.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "107 snd_laser",
+    "ProjectPath": "sounds/snd_laser/snd_laser.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "96 snd_hit3",
+    "ProjectPath": "sounds/snd_hit3/snd_hit3.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "17 snd_bark",
+    "ProjectPath": "sounds/snd_bark/snd_bark.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "89 snd_headphonesbounce",
+    "ProjectPath": "sounds/snd_headphonesbounce/snd_headphonesbounce.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "162 snd_tearsstream",
+    "ProjectPath": "sounds/snd_tearsstream/snd_tearsstream.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "29 snd_brainwash",
+    "ProjectPath": "sounds/snd_brainwash/snd_brainwash.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "152 snd_taikodrumHeavyHit",
+    "ProjectPath": "sounds/snd_taikodrumHeavyHit/snd_taikodrumHeavyHit.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "15 snd_ayamespiritsummon",
+    "ProjectPath": "sounds/snd_ayamespiritsummon/snd_ayamespiritsummon.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "133 snd_rockbreak",
+    "ProjectPath": "sounds/snd_rockbreak/snd_rockbreak.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "80 snd_fullconcert",
+    "ProjectPath": "sounds/snd_fullconcert/snd_fullconcert.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup1.dat",
+    "Name": "6 bgm_chestopen3",
+    "ProjectPath": "sounds/bgm_chestopen3/bgm_chestopen3.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "118 snd_mogumogutime",
+    "ProjectPath": "sounds/snd_mogumogutime/snd_mogumogutime.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "91 snd_heal2",
+    "ProjectPath": "sounds/snd_heal2/snd_heal2.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "16 snd_banned",
+    "ProjectPath": "sounds/snd_banned/snd_banned.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "124 snd_phoenixcry",
+    "ProjectPath": "sounds/snd_phoenixcry/snd_phoenixcry.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "68 snd_enemyAttack",
+    "ProjectPath": "sounds/snd_enemyAttack/snd_enemyAttack.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "161 snd_tears",
+    "ProjectPath": "sounds/snd_tears/snd_tears.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "159 snd_tailplug3",
+    "ProjectPath": "sounds/snd_tailplug3/snd_tailplug3.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "11 snd_anvildrop",
+    "ProjectPath": "sounds/snd_anvildrop/snd_anvildrop.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "22 snd_bigexplod",
+    "ProjectPath": "sounds/snd_bigexplod/snd_bigexplod.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "135 snd_shopBuy",
+    "ProjectPath": "sounds/snd_shopBuy/snd_shopBuy.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "112 snd_magicblast",
+    "ProjectPath": "sounds/snd_magicblast/snd_magicblast.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup1.dat",
+    "Name": "1 bgm_candygoround",
+    "ProjectPath": "sounds/bgm_candygoround/bgm_candygoround.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "104 snd_kapu",
+    "ProjectPath": "sounds/snd_kapu/snd_kapu.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "55 snd_dice",
+    "ProjectPath": "sounds/snd_dice/snd_dice.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup1.dat",
+    "Name": "15 bgm_suspect",
+    "ProjectPath": "sounds/bgm_suspect/bgm_suspect.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "4 snd_ADF",
+    "ProjectPath": "sounds/snd_ADF/snd_ADF.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup1.dat",
+    "Name": "14 bgm_stardust",
+    "ProjectPath": "sounds/bgm_stardust/bgm_stardust.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "92 snd_heavyhit",
+    "ProjectPath": "sounds/snd_heavyhit/snd_heavyhit.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "88 snd_haatoproj",
+    "ProjectPath": "sounds/snd_haatoproj/snd_haatoproj.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "157 snd_tailplug",
+    "ProjectPath": "sounds/snd_tailplug/snd_tailplug.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "121 snd_normalthrow",
+    "ProjectPath": "sounds/snd_normalthrow/snd_normalthrow.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "47 snd_constantfire",
+    "ProjectPath": "sounds/snd_constantfire/snd_constantfire.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "39 snd_charSelected",
+    "ProjectPath": "sounds/snd_charSelected/snd_charSelected.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "174 snd_trumpet2",
+    "ProjectPath": "sounds/snd_trumpet2/snd_trumpet2.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "76 snd_fireworks",
+    "ProjectPath": "sounds/snd_fireworks/snd_fireworks.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "85 snd_getmoney",
+    "ProjectPath": "sounds/snd_getmoney/snd_getmoney.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "81 snd_gacha_get",
+    "ProjectPath": "sounds/snd_gacha_get/snd_gacha_get.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "100 snd_iceshatter",
+    "ProjectPath": "sounds/snd_iceshatter/snd_iceshatter.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "78 snd_formchange",
+    "ProjectPath": "sounds/snd_formchange/snd_formchange.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "12 snd_attackreflect",
+    "ProjectPath": "sounds/snd_attackreflect/snd_attackreflect.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "87 snd_goldenyagoo",
+    "ProjectPath": "sounds/snd_goldenyagoo/snd_goldenyagoo.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "181 snd_trumpetc",
+    "ProjectPath": "sounds/snd_trumpetc/snd_trumpetc.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "164 snd_tentacle",
+    "ProjectPath": "sounds/snd_tentacle/snd_tentacle.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "101 snd_icicle",
+    "ProjectPath": "sounds/snd_icicle/snd_icicle.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "119 snd_needlestab",
+    "ProjectPath": "sounds/snd_needlestab/snd_needlestab.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "23 snd_bigwoosh",
+    "ProjectPath": "sounds/snd_bigwoosh/snd_bigwoosh.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "148 snd_stomp",
+    "ProjectPath": "sounds/snd_stomp/snd_stomp.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup1.dat",
+    "Name": "7 bgm_chestopen3_short",
+    "ProjectPath": "sounds/bgm_chestopen3_short/bgm_chestopen3_short.wav",
+    "FileType": 0
+  },
+  {
+    "BinaryFileName": "audiogroup2.dat",
+    "Name": "144 snd_stickerdrop",
+    "ProjectPath": "sounds/snd_stickerdrop/snd_stickerdrop.wav",
+    "FileType": 0
+  }
+]
