@@ -10,6 +10,11 @@ namespace ProjectCreator.ProjectCreator;
 
 partial class GameMakerProject {
     public void ImportAudioGroup(UndertaleAudioGroup audioGroup) {
+        if (Project.AudioGroups.Any(x => x.Name == audioGroup.Name.Content)) {
+            Console.WriteLine($"Warning: Audio group {audioGroup.Name.Content} already exists.");
+            return;
+        }
+
         Project.AudioGroups.Add(new GmAudioGroup {
             ResourceType = "GMAudioGroup",
             ResourceVersion = "1.3",
