@@ -23,7 +23,7 @@ partial class GameMakerProject {
         });
     }
 
-    public void ImportSound(UndertaleSound sound, UndertaleData[] audioGroups) {
+    public void ImportSound(UndertaleSound sound) {
         var name = sound.Name.Content;
 
         var resourceLink = new ResourceLinkTarget {
@@ -207,13 +207,10 @@ public static class GameMakerProjectExtensions {
     public static void ImportGame(this GameMakerProject project, string gameDirectory) {
         // todo: yes I know this is hardcoded for windows womp womp
         var dataPath = Path.Combine(gameDirectory, "data.win");
-        var audioGroup1Path = Path.Combine(gameDirectory, "audiogroup1.dat");
-        var audioGroup2Path = Path.Combine(gameDirectory, "audiogroup2.dat");
         var data = UndertaleIO.Read(File.OpenRead(dataPath));
-        var audioGroups = new[] { UndertaleIO.Read(File.OpenRead(audioGroup1Path)), UndertaleIO.Read(File.OpenRead(audioGroup2Path)), };
 
         project.ImportAudioGroupsFromGame(data);
-        project.ImportSoundsFromGame(data, audioGroups);
+        project.ImportSoundsFromGame(data);
         project.ImportExtensionsFromGame(data);
     }
 
@@ -222,9 +219,9 @@ public static class GameMakerProjectExtensions {
             project.ImportAudioGroup(audioGroup);
     }
 
-    public static void ImportSoundsFromGame(this GameMakerProject project, UndertaleData data, UndertaleData[] audioGroups) {
+    public static void ImportSoundsFromGame(this GameMakerProject project, UndertaleData data) {
         foreach (var sound in data.Sounds)
-            project.ImportSound(sound, audioGroups);
+            project.ImportSound(sound);
     }
 
     public static void ImportExtensionsFromGame(this GameMakerProject project, UndertaleData data) {
