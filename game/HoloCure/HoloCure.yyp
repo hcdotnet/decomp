@@ -34,6 +34,7 @@
     "IDEVersion": "2023.4.0.84",
   },
   "resources": [
+    {"id":{"name":"TestSound","path":"sounds/TestSound/TestSound.yy",},},
     {"id":{"name":"display_mouse_lock","path":"extensions/display_mouse_lock/display_mouse_lock.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
