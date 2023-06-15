@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_gacha_get",
+  "soundFile": "snd_gacha_get.wav",
   "type": 0,
   "volume": 1.0,
 }

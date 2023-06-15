@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "bgm_candygoround",
+  "soundFile": "bgm_candygoround.ogg",
   "type": 0,
   "volume": 1.0,
 }

@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_chainsaw",
+  "soundFile": "snd_chainsaw.wav",
   "type": 0,
   "volume": 1.0,
 }

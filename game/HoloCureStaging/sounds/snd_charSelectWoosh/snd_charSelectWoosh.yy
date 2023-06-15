@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_charSelectWoosh",
+  "soundFile": "snd_charSelectWoosh.wav",
   "type": 0,
   "volume": 1.0,
 }

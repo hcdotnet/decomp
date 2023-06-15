@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "bgm_adtruck",
+  "soundFile": "bgm_adtruck.ogg",
   "type": 0,
   "volume": 1.0,
 }

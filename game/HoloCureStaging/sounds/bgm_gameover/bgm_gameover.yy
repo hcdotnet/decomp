@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "bgm_gameover",
+  "soundFile": "bgm_gameover.wav",
   "type": 0,
   "volume": 1.0,
 }

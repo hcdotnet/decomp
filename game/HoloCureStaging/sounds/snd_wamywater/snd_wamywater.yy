@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_wamywater",
+  "soundFile": "snd_wamywater.wav",
   "type": 0,
   "volume": 1.0,
 }

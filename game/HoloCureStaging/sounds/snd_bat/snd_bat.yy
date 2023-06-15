@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_bat",
+  "soundFile": "snd_bat.wav",
   "type": 0,
   "volume": 1.0,
 }

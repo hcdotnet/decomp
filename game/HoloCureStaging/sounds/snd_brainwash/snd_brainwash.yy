@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_brainwash",
+  "soundFile": "snd_brainwash.wav",
   "type": 0,
   "volume": 1.0,
 }

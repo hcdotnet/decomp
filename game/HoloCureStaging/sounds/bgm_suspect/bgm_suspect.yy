@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "bgm_suspect",
+  "soundFile": "bgm_suspect.ogg",
   "type": 0,
   "volume": 1.0,
 }

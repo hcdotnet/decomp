@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_coin",
+  "soundFile": "snd_coin.wav",
   "type": 0,
   "volume": 1.0,
 }

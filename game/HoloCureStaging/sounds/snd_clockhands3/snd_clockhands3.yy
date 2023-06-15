@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_clockhands3",
+  "soundFile": "snd_clockhands3.wav",
   "type": 0,
   "volume": 1.0,
 }

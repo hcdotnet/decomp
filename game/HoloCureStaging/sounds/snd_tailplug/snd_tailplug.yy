@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_tailplug",
+  "soundFile": "snd_tailplug.wav",
   "type": 0,
   "volume": 0.6,
 }

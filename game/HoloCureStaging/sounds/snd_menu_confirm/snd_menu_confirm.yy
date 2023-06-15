@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_menu_confirm",
+  "soundFile": "snd_menu_confirm.wav",
   "type": 0,
   "volume": 1.0,
 }

@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_bullet2",
+  "soundFile": "snd_bullet2.wav",
   "type": 0,
   "volume": 0.59,
 }

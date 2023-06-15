@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_twinkle",
+  "soundFile": "snd_twinkle.wav",
   "type": 0,
   "volume": 1.0,
 }

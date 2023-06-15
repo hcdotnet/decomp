@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_duckasmr",
+  "soundFile": "snd_duckasmr.wav",
   "type": 0,
   "volume": 1.0,
 }

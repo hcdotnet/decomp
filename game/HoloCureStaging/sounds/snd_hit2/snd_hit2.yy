@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_hit2",
+  "soundFile": "snd_hit2.wav",
   "type": 0,
   "volume": 0.65,
 }

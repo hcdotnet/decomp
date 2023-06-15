@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_taikodrumHeavyHit",
+  "soundFile": "snd_taikodrumHeavyHit.wav",
   "type": 0,
   "volume": 1.0,
 }

@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "bgm_stardust",
+  "soundFile": "bgm_stardust.ogg",
   "type": 0,
   "volume": 1.0,
 }

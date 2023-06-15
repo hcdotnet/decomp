@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_amegroundpound",
+  "soundFile": "snd_amegroundpound.wav",
   "type": 0,
   "volume": 1.0,
 }

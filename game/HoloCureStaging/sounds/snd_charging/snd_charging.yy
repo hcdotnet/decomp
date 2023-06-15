@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_charging",
+  "soundFile": "snd_charging.wav",
   "type": 0,
   "volume": 1.0,
 }

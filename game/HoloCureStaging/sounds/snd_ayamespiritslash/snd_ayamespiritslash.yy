@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_ayamespiritslash",
+  "soundFile": "snd_ayamespiritslash.wav",
   "type": 0,
   "volume": 1.0,
 }

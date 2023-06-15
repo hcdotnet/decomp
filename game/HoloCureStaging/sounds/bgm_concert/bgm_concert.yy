@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "bgm_concert",
+  "soundFile": "bgm_concert.ogg",
   "type": 0,
   "volume": 1.0,
 }

@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_tentacle",
+  "soundFile": "snd_tentacle.wav",
   "type": 0,
   "volume": 0.79,
 }

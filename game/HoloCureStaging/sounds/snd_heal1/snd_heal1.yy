@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_heal1",
+  "soundFile": "snd_heal1.wav",
   "type": 0,
   "volume": 1.0,
 }

@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_timegate",
+  "soundFile": "snd_timegate.wav",
   "type": 0,
   "volume": 1.0,
 }

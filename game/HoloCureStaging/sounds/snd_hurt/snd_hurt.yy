@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_hurt",
+  "soundFile": "snd_hurt.wav",
   "type": 0,
   "volume": 1.0,
 }

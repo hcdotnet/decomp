@@ -92,7 +92,7 @@ partial class GameMakerProject {
             },
             Preload = false,
             SampleRate = 44100,
-            SoundFile = name,
+            SoundFile = sound.File.Content,
             Type = 0, // TODO
             Volume = sound.Volume,
         });

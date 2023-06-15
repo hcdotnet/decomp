@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "snd_trumpet2c",
+  "soundFile": "snd_trumpet2c.wav",
   "type": 0,
   "volume": 1.0,
 }

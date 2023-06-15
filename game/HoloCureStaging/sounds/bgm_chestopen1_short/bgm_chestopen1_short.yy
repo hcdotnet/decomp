@@ -17,7 +17,7 @@
   },
   "preload": false,
   "sampleRate": 44100,
-  "soundFile": "bgm_chestopen1_short",
+  "soundFile": "bgm_chestopen1_short.wav",
   "type": 0,
   "volume": 1.0,
 }
