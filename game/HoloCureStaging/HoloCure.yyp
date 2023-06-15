@@ -33,7 +33,9 @@
   "MetaData": {
     "IDEVersion": "2023.4.0.84",
   },
-  "resources": [],
+  "resources": [
+    {"id":{"name":"display_mouse_lock","path":"extensions/display_mouse_lock/display_mouse_lock.yy",},},
+  ],
   "RoomOrderNodes": [],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

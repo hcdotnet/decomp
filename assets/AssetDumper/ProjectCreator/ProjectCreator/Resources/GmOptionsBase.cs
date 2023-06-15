@@ -1,3 +1,3 @@
 ﻿namespace ProjectCreator.ProjectCreator.Resources;
 
-public abstract class GmOptionsBase : ResourceBase { }
+public class GmOptionsBase : ResourceBase { }
