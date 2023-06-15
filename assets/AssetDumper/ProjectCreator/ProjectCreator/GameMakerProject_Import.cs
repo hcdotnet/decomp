@@ -9,6 +9,15 @@ using UndertaleModLib.Models;
 namespace ProjectCreator.ProjectCreator;
 
 partial class GameMakerProject {
+    public void ImportAudioGroup(UndertaleAudioGroup audioGroup) {
+        Project.AudioGroups.Add(new GmAudioGroup {
+            ResourceType = "GMAudioGroup",
+            ResourceVersion = "1.3",
+            Name = audioGroup.Name.Content,
+            Targets = TargetPlatforms.AllPlatforms,
+        });
+    }
+
     public void ImportExtension(UndertaleExtension extension) {
         var name = extension.Name.Content;
 
@@ -144,7 +153,13 @@ public static class GameMakerProjectExtensions {
         var dataPath = Path.Combine(gameDirectory, "data.win");
         var data = UndertaleIO.Read(File.OpenRead(dataPath));
 
+        project.ImportAudioGroupsFromGame(data);
         project.ImportExtensionsFromGame(data);
+    }
+
+    public static void ImportAudioGroupsFromGame(this GameMakerProject project, UndertaleData data) {
+        foreach (var audioGroup in data.AudioGroups)
+            project.ImportAudioGroup(audioGroup);
     }
 
     public static void ImportExtensionsFromGame(this GameMakerProject project, UndertaleData data) {
