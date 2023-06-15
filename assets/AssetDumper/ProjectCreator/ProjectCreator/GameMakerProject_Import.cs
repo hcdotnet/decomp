@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using NAudio.Wave;
+using NVorbis;
 using ProjectCreator.ProjectCreator.Resources;
 using UndertaleModLib;
 using UndertaleModLib.Models;
@@ -23,7 +25,7 @@ partial class GameMakerProject {
         });
     }
 
-    public void ImportSound(UndertaleSound sound) {
+    public void ImportSound(UndertaleSound sound, UndertaleData[] audioGroups) {
         var name = sound.Name.Content;
 
         var resourceLink = new ResourceLinkTarget {
@@ -46,7 +48,29 @@ partial class GameMakerProject {
             };
         }*/
 
-        ExpectedVirtualFiles.Add(new VirtualFile($"audiogroup{sound.GroupID}.dat", $"{sound.AudioID} {name}", $"sounds/{name}/{name}.wav", VirtualFileType.Sound));
+        ExpectedVirtualFiles.Add(new VirtualFile($"audiogroup{sound.GroupID}.dat", $"{sound.AudioID} {name}", $"sounds/{name}/{sound.File.Content}", VirtualFileType.Sound));
+
+        // todo: unhardcode
+        float time = -1;
+
+        // todo: ugly as hell, but I can't rely on file extensions being accurate... damn
+        try {
+            using var ms = new MemoryStream(audioGroups[sound.GroupID - 1].EmbeddedAudio.Single(x => x.Name.Content == "EmbeddedSound " + sound.AudioID).Data);
+            using var wfr = new VorbisReader(ms);
+            time = (float)wfr.TotalTime.TotalSeconds;
+        }
+        catch {
+            try {
+                using var ms = new MemoryStream(audioGroups[sound.GroupID - 1].EmbeddedAudio.Single(x => x.Name.Content == "EmbeddedSound " + sound.AudioID).Data);
+                using var wfr = new WaveFileReader(ms);
+                time = (float)wfr.TotalTime.TotalSeconds;
+            }
+            catch {
+                using var ms = new MemoryStream(audioGroups[sound.GroupID - 1].EmbeddedAudio.Single(x => x.Name.Content == "EmbeddedSound " + sound.AudioID).Data);
+                using var wfr = new Mp3FileReader(ms);
+                time = (float)wfr.TotalTime.TotalSeconds;
+            }
+        }
 
         // TODO: unused values to pitch from UndertaleSound as well
         Sounds.Add(new GmSound {
@@ -61,7 +85,7 @@ partial class GameMakerProject {
             BitRate = 128, // TODO
             Compression = 0, // TODO
             ConversionMode = 0, // TODO
-            Duration = 0, // TODO
+            Duration = time,
             Parent = new ResourceLinkTarget {
                 Name = "Sounds",
                 Path = "folders/Sounds.yy",
@@ -207,10 +231,13 @@ public static class GameMakerProjectExtensions {
     public static void ImportGame(this GameMakerProject project, string gameDirectory) {
         // todo: yes I know this is hardcoded for windows womp womp
         var dataPath = Path.Combine(gameDirectory, "data.win");
+        var audioGroup1Path = Path.Combine(gameDirectory, "audiogroup1.dat");
+        var audioGroup2Path = Path.Combine(gameDirectory, "audiogroup2.dat");
         var data = UndertaleIO.Read(File.OpenRead(dataPath));
+        var audioGroups = new[] { UndertaleIO.Read(File.OpenRead(audioGroup1Path)), UndertaleIO.Read(File.OpenRead(audioGroup2Path)), };
 
         project.ImportAudioGroupsFromGame(data);
-        project.ImportSoundsFromGame(data);
+        project.ImportSoundsFromGame(data, audioGroups);
         project.ImportExtensionsFromGame(data);
     }
 
@@ -219,9 +246,9 @@ public static class GameMakerProjectExtensions {
             project.ImportAudioGroup(audioGroup);
     }
 
-    public static void ImportSoundsFromGame(this GameMakerProject project, UndertaleData data) {
+    public static void ImportSoundsFromGame(this GameMakerProject project, UndertaleData data, UndertaleData[] audioGroups) {
         foreach (var sound in data.Sounds)
-            project.ImportSound(sound);
+            project.ImportSound(sound, audioGroups);
     }
 
     public static void ImportExtensionsFromGame(this GameMakerProject project, UndertaleData data) {

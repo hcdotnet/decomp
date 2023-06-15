@@ -116,7 +116,7 @@
   {
     "BinaryFileName": "audiogroup1.dat",
     "Name": "5 bgm_chestopen2_short",
-    "ProjectPath": "sounds/bgm_chestopen2_short/bgm_chestopen2_short.wav",
+    "ProjectPath": "sounds/bgm_chestopen2_short/bgm_chestopen2_short.mp3",
     "FileType": 0
   },
   {
@@ -182,7 +182,7 @@
   {
     "BinaryFileName": "audiogroup1.dat",
     "Name": "11 bgm_halloweennight",
-    "ProjectPath": "sounds/bgm_halloweennight/bgm_halloweennight.wav",
+    "ProjectPath": "sounds/bgm_halloweennight/bgm_halloweennight.ogg",
     "FileType": 0
   },
   {
@@ -302,7 +302,7 @@
   {
     "BinaryFileName": "audiogroup1.dat",
     "Name": "8 bgm_concert",
-    "ProjectPath": "sounds/bgm_concert/bgm_concert.wav",
+    "ProjectPath": "sounds/bgm_concert/bgm_concert.ogg",
     "FileType": 0
   },
   {
@@ -422,7 +422,7 @@
   {
     "BinaryFileName": "audiogroup1.dat",
     "Name": "0 bgm_adtruck",
-    "ProjectPath": "sounds/bgm_adtruck/bgm_adtruck.wav",
+    "ProjectPath": "sounds/bgm_adtruck/bgm_adtruck.ogg",
     "FileType": 0
   },
   {
@@ -848,7 +848,7 @@
   {
     "BinaryFileName": "audiogroup1.dat",
     "Name": "4 bgm_chestopen2",
-    "ProjectPath": "sounds/bgm_chestopen2/bgm_chestopen2.wav",
+    "ProjectPath": "sounds/bgm_chestopen2/bgm_chestopen2.mp3",
     "FileType": 0
   },
   {
@@ -884,7 +884,7 @@
   {
     "BinaryFileName": "audiogroup1.dat",
     "Name": "2 bgm_chestopen1",
-    "ProjectPath": "sounds/bgm_chestopen1/bgm_chestopen1.wav",
+    "ProjectPath": "sounds/bgm_chestopen1/bgm_chestopen1.mp3",
     "FileType": 0
   },
   {
@@ -1004,7 +1004,7 @@
   {
     "BinaryFileName": "audiogroup1.dat",
     "Name": "6 bgm_chestopen3",
-    "ProjectPath": "sounds/bgm_chestopen3/bgm_chestopen3.wav",
+    "ProjectPath": "sounds/bgm_chestopen3/bgm_chestopen3.mp3",
     "FileType": 0
   },
   {
@@ -1076,7 +1076,7 @@
   {
     "BinaryFileName": "audiogroup1.dat",
     "Name": "1 bgm_candygoround",
-    "ProjectPath": "sounds/bgm_candygoround/bgm_candygoround.wav",
+    "ProjectPath": "sounds/bgm_candygoround/bgm_candygoround.ogg",
     "FileType": 0
   },
   {
@@ -1094,7 +1094,7 @@
   {
     "BinaryFileName": "audiogroup1.dat",
     "Name": "15 bgm_suspect",
-    "ProjectPath": "sounds/bgm_suspect/bgm_suspect.wav",
+    "ProjectPath": "sounds/bgm_suspect/bgm_suspect.ogg",
     "FileType": 0
   },
   {
@@ -1106,7 +1106,7 @@
   {
     "BinaryFileName": "audiogroup1.dat",
     "Name": "14 bgm_stardust",
-    "ProjectPath": "sounds/bgm_stardust/bgm_stardust.wav",
+    "ProjectPath": "sounds/bgm_stardust/bgm_stardust.ogg",
     "FileType": 0
   },
   {
@@ -1232,7 +1232,7 @@
   {
     "BinaryFileName": "audiogroup1.dat",
     "Name": "7 bgm_chestopen3_short",
-    "ProjectPath": "sounds/bgm_chestopen3_short/bgm_chestopen3_short.wav",
+    "ProjectPath": "sounds/bgm_chestopen3_short/bgm_chestopen3_short.mp3",
     "FileType": 0
   },
   {

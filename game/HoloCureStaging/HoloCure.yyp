@@ -230,7 +230,6 @@
     {"id":{"name":"snd_trumpet2","path":"sounds/snd_trumpet2/snd_trumpet2.yy",},},
     {"id":{"name":"snd_fireworks","path":"sounds/snd_fireworks/snd_fireworks.yy",},},
     {"id":{"name":"snd_getmoney","path":"sounds/snd_getmoney/snd_getmoney.yy",},},
-    {"id":{"name":"snd_ADF2","path":"sounds/snd_ADF2/snd_ADF2.yy",},},
     {"id":{"name":"snd_gacha_get","path":"sounds/snd_gacha_get/snd_gacha_get.yy",},},
     {"id":{"name":"snd_iceshatter","path":"sounds/snd_iceshatter/snd_iceshatter.yy",},},
     {"id":{"name":"snd_formchange","path":"sounds/snd_formchange/snd_formchange.yy",},},

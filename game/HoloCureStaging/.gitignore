@@ -21,7 +21,7 @@ sounds/snd_eliminatemode/snd_eliminatemode.wav
 sounds/snd_tailswipe/snd_tailswipe.wav
 sounds/snd_aik/snd_aik.wav
 sounds/snd_stickersell/snd_stickersell.wav
-sounds/bgm_chestopen2_short/bgm_chestopen2_short.wav
+sounds/bgm_chestopen2_short/bgm_chestopen2_short.mp3
 sounds/snd_ayamespiritslash/snd_ayamespiritslash.wav
 sounds/bgm_intro/bgm_intro.wav
 sounds/snd_specialReady/snd_specialReady.wav
@@ -32,7 +32,7 @@ sounds/snd_trumpet3c/snd_trumpet3c.wav
 sounds/snd_woosh2/snd_woosh2.wav
 sounds/snd_taikoka/snd_taikoka.wav
 sounds/snd_boxingpunch/snd_boxingpunch.wav
-sounds/bgm_halloweennight/bgm_halloweennight.wav
+sounds/bgm_halloweennight/bgm_halloweennight.ogg
 sounds/snd_shoprefund/snd_shoprefund.wav
 sounds/snd_feathers/snd_feathers.wav
 sounds/snd_duckshoutwaves/snd_duckshoutwaves.wav
@@ -52,7 +52,7 @@ sounds/snd_amejump/snd_amejump.wav
 sounds/snd_reaperabsorb/snd_reaperabsorb.wav
 sounds/snd_eldritchgroan/snd_eldritchgroan.wav
 sounds/snd_dropland/snd_dropland.wav
-sounds/bgm_concert/bgm_concert.wav
+sounds/bgm_concert/bgm_concert.ogg
 sounds/snd_whirlpoolsplash/snd_whirlpoolsplash.wav
 sounds/snd_menu_confirm/snd_menu_confirm.wav
 sounds/snd_dynamitebody/snd_dynamitebody.wav
@@ -72,7 +72,7 @@ sounds/snd_throwspinning/snd_throwspinning.wav
 sounds/snd_treestab/snd_treestab.wav
 sounds/snd_gachaopening/snd_gachaopening.wav
 sounds/snd_konkon/snd_konkon.wav
-sounds/bgm_adtruck/bgm_adtruck.wav
+sounds/bgm_adtruck/bgm_adtruck.ogg
 sounds/snd_kickexplosion/snd_kickexplosion.wav
 sounds/snd_timegateend/snd_timegateend.wav
 sounds/snd_timeblast/snd_timeblast.wav
@@ -143,13 +143,13 @@ sounds/snd_failed/snd_failed.wav
 sounds/snd_lava/snd_lava.wav
 sounds/snd_hurt/snd_hurt.wav
 sounds/snd_cursespread/snd_cursespread.wav
-sounds/bgm_chestopen2/bgm_chestopen2.wav
+sounds/bgm_chestopen2/bgm_chestopen2.mp3
 sounds/snd_revive/snd_revive.wav
 sounds/snd_summonShark1/snd_summonShark1.wav
 sounds/snd_clockhands3/snd_clockhands3.wav
 sounds/bgm_gamewin/bgm_gamewin.wav
 sounds/snd_tailinit/snd_tailinit.wav
-sounds/bgm_chestopen1/bgm_chestopen1.wav
+sounds/bgm_chestopen1/bgm_chestopen1.mp3
 sounds/snd_hit1/snd_hit1.wav
 sounds/snd_trumpet2c/snd_trumpet2c.wav
 sounds/snd_iryslight/snd_iryslight.wav
@@ -169,7 +169,7 @@ sounds/snd_taikodrumHeavyHit/snd_taikodrumHeavyHit.wav
 sounds/snd_ayamespiritsummon/snd_ayamespiritsummon.wav
 sounds/snd_rockbreak/snd_rockbreak.wav
 sounds/snd_fullconcert/snd_fullconcert.wav
-sounds/bgm_chestopen3/bgm_chestopen3.wav
+sounds/bgm_chestopen3/bgm_chestopen3.mp3
 sounds/snd_mogumogutime/snd_mogumogutime.wav
 sounds/snd_heal2/snd_heal2.wav
 sounds/snd_banned/snd_banned.wav
@@ -181,12 +181,12 @@ sounds/snd_anvildrop/snd_anvildrop.wav
 sounds/snd_bigexplod/snd_bigexplod.wav
 sounds/snd_shopBuy/snd_shopBuy.wav
 sounds/snd_magicblast/snd_magicblast.wav
-sounds/bgm_candygoround/bgm_candygoround.wav
+sounds/bgm_candygoround/bgm_candygoround.ogg
 sounds/snd_kapu/snd_kapu.wav
 sounds/snd_dice/snd_dice.wav
-sounds/bgm_suspect/bgm_suspect.wav
+sounds/bgm_suspect/bgm_suspect.ogg
 sounds/snd_ADF/snd_ADF.wav
-sounds/bgm_stardust/bgm_stardust.wav
+sounds/bgm_stardust/bgm_stardust.ogg
 sounds/snd_heavyhit/snd_heavyhit.wav
 sounds/snd_haatoproj/snd_haatoproj.wav
 sounds/snd_tailplug/snd_tailplug.wav
@@ -207,5 +207,5 @@ sounds/snd_icicle/snd_icicle.wav
 sounds/snd_needlestab/snd_needlestab.wav
 sounds/snd_bigwoosh/snd_bigwoosh.wav
 sounds/snd_stomp/snd_stomp.wav
-sounds/bgm_chestopen3_short/bgm_chestopen3_short.wav
+sounds/bgm_chestopen3_short/bgm_chestopen3_short.mp3
 sounds/snd_stickerdrop/snd_stickerdrop.wav
