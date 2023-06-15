@@ -36,6 +36,7 @@
   "resources": [
     {"id":{"name":"TestSound","path":"sounds/TestSound/TestSound.yy",},},
     {"id":{"name":"display_mouse_lock","path":"extensions/display_mouse_lock/display_mouse_lock.yy",},},
+    {"id":{"name":"Sprite1","path":"sprites/Sprite1/Sprite1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
