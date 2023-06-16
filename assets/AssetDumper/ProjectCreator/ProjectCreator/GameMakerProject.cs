@@ -10,6 +10,7 @@ public record PhysicalFile(string GamePath, string ProjectPath);
 
 public enum VirtualFileType {
     Sound,
+    Sprite,
 }
 
 public record VirtualFile(string BinaryFileName, string Name, string ProjectPath, VirtualFileType FileType);
@@ -30,6 +31,8 @@ public sealed partial class GameMakerProject {
 
     public List<GmSound> Sounds { get; set; } = new();
 
+    public List<GmSprite> Sprites { get; set; } = new();
+
     public List<GmExtension> Extensions { get; set; } = new();
 
     public void WriteToDirectory(string directory) {
@@ -44,7 +47,10 @@ public sealed partial class GameMakerProject {
         Options.WriteToDirectory(Path.Combine(directory, "options"));
 
         foreach (var sound in Sounds)
-            WriteSounds(directory, sound);
+            WriteSound(directory, sound);
+        
+        foreach (var sprite in Sprites)
+            WriteSprite(directory, sprite);
 
         foreach (var extension in Extensions)
             WriteExtension(directory, extension);
@@ -70,17 +76,23 @@ public sealed partial class GameMakerProject {
         var gitignorePath = Path.Combine(directory, ".gitignore");
         File.WriteAllText(gitignorePath, sb.ToString());
     }
+    
+    private void WriteSound(string directory, GmSound sound) {
+        var path = Path.Combine(directory, "sounds", sound.Name, sound.Name + ".yy");
+        Directory.CreateDirectory(Path.GetDirectoryName(path)!);
+        File.WriteAllText(path, JsonConvert.SerializeObject(sound, Formatting.Indented));
+    }
+    
+    private void WriteSprite(string directory, GmSprite sprite) {
+        var path = Path.Combine(directory, "sprites", sprite.Name, sprite.Name + ".yy");
+        Directory.CreateDirectory(Path.GetDirectoryName(path)!);
+        File.WriteAllText(path, JsonConvert.SerializeObject(sprite, Formatting.Indented));
+    }
 
     private void WriteExtension(string directory, GmExtension extension) {
         var path = Path.Combine(directory, "extensions", extension.Name, extension.Name + ".yy");
         Directory.CreateDirectory(Path.GetDirectoryName(path)!);
         File.WriteAllText(path, JsonConvert.SerializeObject(extension, Formatting.Indented));
-    }
-
-    private void WriteSounds(string directory, GmSound sound) {
-        var path = Path.Combine(directory, "sounds", sound.Name, sound.Name + ".yy");
-        Directory.CreateDirectory(Path.GetDirectoryName(path)!);
-        File.WriteAllText(path, JsonConvert.SerializeObject(sound, Formatting.Indented));
     }
 
     public static GameMakerProject CreateNew(string name) {

@@ -51,12 +51,12 @@ public sealed class GmProject : ResourceBase {
             ResourceVersion = "1.7",
             Name = name,
             AudioGroups = new List<GmAudioGroup> {
-                new()  {
+                /*new()  {
                     ResourceType = "GMAudioGroup",
                     ResourceVersion = "1.3",
                     Name = "audiogroup_default",
                     Targets = TargetPlatforms.AllPlatforms,
-                },
+                },*/
             },
             Config = new GmProjectConfig {
                 Children = new List<GmProjectConfig>(),

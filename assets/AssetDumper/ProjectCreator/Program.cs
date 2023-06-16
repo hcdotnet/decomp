@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using ProjectCreator.ProjectCreator;
 using UndertaleModLib;
+using UndertaleModLib.Util;
 
 namespace ProjectCreator;
 
@@ -87,9 +88,12 @@ internal static class Program {
 
         foreach (var (binaryName, fileList) in virtualDict) {
             Console.WriteLine($"  {binaryName}:");
+            var source = UndertaleIO.Read(File.OpenRead(Path.Combine(gameDir, binaryName)));
+            
+            // can be null if none present
+            var spritesByName = source.Sprites?.ToDictionary(x => x.Name.Content);
 
             foreach (var file in fileList) {
-                var source = UndertaleIO.Read(File.OpenRead(Path.Combine(gameDir, binaryName)));
                 var dest = Path.Combine(projectPath, file.ProjectPath);
                 Console.WriteLine($"    {file.Name} -> {dest}");
                 Directory.CreateDirectory(Path.GetDirectoryName(dest)!);
@@ -98,6 +102,13 @@ internal static class Program {
                     case VirtualFileType.Sound:
                         var sound = source.EmbeddedAudio.Single(x => x.Name.Content == "EmbeddedSound " + file.Name.Split(' ')[0]);
                         File.WriteAllBytes(dest, sound.Data);
+                        break;
+
+                    case VirtualFileType.Sprite:
+                        // won't be null if we expect a sprite from it... maybe
+                        var sprite = spritesByName![file.Name.Split(' ')[1]];
+                        var worker = new TextureWorker();
+                        worker.ExportAsPNG(sprite.Textures[int.Parse(file.Name.Split(' ')[0])].Texture, dest);
                         break;
 
                     default:
